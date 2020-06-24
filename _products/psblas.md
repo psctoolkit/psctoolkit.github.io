@@ -1,15 +1,18 @@
 ---
 title: PSBLAS
 subtitle: Parallel Sparse BLAS
-description: The PSBLAS library, developed with the aim to facilitate the parallelization of computationally intensive scientific applications, is designed to address parallel
-implementation of iterative solvers for sparse linear systems through the distributed memory paradigm.
+description: This is a product description
+product_code: PSBLAS
 layout: product
 image: https://via.placeholder.com/640x480
 features:
-    - label: The starting points for your scientific endeavour
+    - label: Great addition to any scientific project
+      icon: fa-location-arrow
+    - label: Comes with a range of interfaces
       icon: fa-grin-stars
     - label: Tested on tens of thousands of cores
       icon: fa-fighter-jet
+rating: 5
 ---
 
 PSBLAS library, version 3.7
