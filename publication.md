@@ -1,3 +1,6 @@
+layout: page
+title: Publications
+
 ## PSBLAS
 Publications describing the structure of the PSBLAS: Parallel Sparse BLAS, the library at the core of the psctoolkit
 1. S. Filippone, A. Buttari. Object-Oriented Techniques for Sparse Matrix Computations in Fortran 2003, ACM Trans. on Math. Software, vol. 38, No. 4, 2012.
