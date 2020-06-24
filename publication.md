@@ -1,5 +1,8 @@
-layout: page
+---
 title: Publications
+layout: page
+show_sidebar: false
+---
 
 ## PSBLAS
 Publications describing the structure of the PSBLAS: Parallel Sparse BLAS, the library at the core of the psctoolkit
