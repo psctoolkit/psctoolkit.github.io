@@ -2,3 +2,9 @@ remote_theme: chrisrhymes/bulma-clean-theme
 title: Parallel Sparse Computation Toolkit
 description: Scientific Computing towards the Exascale
 permalink: pretty
+collections:
+  products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
