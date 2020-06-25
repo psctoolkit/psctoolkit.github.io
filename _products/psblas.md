@@ -4,7 +4,7 @@ subtitle: Parallel Sparse BLAS
 description: This is a product description
 product_code: PSBLAS
 layout: product
-image: https://via.placeholder.com/640x480
+image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/psblaslibrary.png
 features:
     - label: Great addition to any scientific project
       icon: fa-location-arrow
