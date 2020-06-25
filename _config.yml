@@ -2,7 +2,7 @@ remote_theme: chrisrhymes/bulma-clean-theme
 title: Parallel Sparse Computation Toolkit
 description: Scientific Computing towards the Exascale
 permalink: pretty
-favicon: favicon.png
+# favicon: favicon.png # Favicon is in the standard position
 collections:
   products: 
     output: true
