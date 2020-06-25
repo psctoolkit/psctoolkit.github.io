@@ -1,7 +1,6 @@
 ---
 title: PSBLAS
 subtitle: Parallel Sparse BLAS
-description: This is a product description
 product_code: PSBLAS
 layout: product
 image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/psblaslibrary.png
@@ -13,25 +12,11 @@ features:
     - label: Tested on tens of thousands of cores
       icon: fa-fighter-jet
 rating: 5
+order: 1
 ---
 
-PSBLAS library, version 3.7
+PSBLAS library
 ===========================
-
-The architecture of the Fortran 2003 sparse BLAS is described in:
->S. Filippone, A. Buttari. Object-Oriented Techniques for Sparse Matrix
->Computations in Fortran 2003, ACM Trans. on Math. Software, vol. 38, No.
-4, 2012.
-
-The ideas are explored further with the paper:
->V. Cardellini, S. Filippone and D. Rouson. Design Patterns for
->sparse-matrix computations on hybrid CPU/GPU platforms, Scientific 
->Programming, 22(2014), pp.1-19.
-
-Version 1.0 of the library is described in:
->S. Filippone, M. Colajanni. PSBLAS: A library for parallel linear
->algebra computation on sparse matrices, ACM Trans. on Math. Software,
->26(4), Dec. 2000, pp. 527-550.
 
 
 UTILITIES
