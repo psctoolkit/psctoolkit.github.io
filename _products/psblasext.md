@@ -5,11 +5,9 @@ product_code: PSBLAS
 layout: product
 image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/psblaslibraryext.png
 features:
-    - label: Great addition to any scientific project
-      icon: fa-location-arrow
-    - label: Comes with a range of interfaces
-      icon: fa-grin-stars
-    - label: Tested on tens of thousands of cores
+    - label: Add NVIDIA-GPU capabilities to your code
+      icon: fa-microchip
+    - label: Tested on thousands of GPUs
       icon: fa-fighter-jet
 rating: 5
 order: 2
@@ -20,13 +18,13 @@ PSBLAS-EXT
 
 This is the extenstions plugin for PSBLAS
 
-This package contains: 
+This package contains:
 1. Extended matrix formats: ELLPACK, Hacked ELLPACK, DIAgonals, Hacked
    DIAgonals. Note: DIA and HDIA have limited support.      
 2. A GPU plugin: gpu-enabled versions of the above, with the CUDA code
    from http://spgpu.googlecode.com,  plus interfaces to
    CSR and HYB formats available in the NVIDIA CuSPARSE lib.
-   Note: DIAG and HDIAG have limited support. 
+   Note: DIAG and HDIAG have limited support.
 3. RSB: an interface to http://sourceforge.net/projects/librsb
 
 
@@ -34,10 +32,10 @@ PREREQUISITES
 -------------
 
 To build this code you need to have PSBLAS 3.3.0 or later, together
-with its prerequisites. 
+with its prerequisites.
 
 To make use of the NVIDIA GPU you'll need:
-1. An installation of the CUDA toolkit (version 4.1 or later); 
+1. An installation of the CUDA toolkit (version 4.1 or later);
 2. The SPGPU code from http://spgpu.googlecode.com
 
 
@@ -54,7 +52,7 @@ INSTALLING
 make;
 make install
 
-Note: we have only tested with GNU Fortran compiler. 
+Note: we have only tested with GNU Fortran compiler.
 Note: CUDA nvcc typically lags behind the latest  versions of GCC/GNU
       Fortran; currently nvcc supports GCC 4.8 so this is the preferred choice.
       Mixing SPGPU CUDA code  compiled with an older version and the rest with
@@ -72,7 +70,7 @@ Good preconditioners for the GPU. Performance of  triangular system
 solves on the GPU is very bad: we enable it in CSRG and HYBG, we do
 not even bother to implement it in ELG and HLG.  
 So if you use the GPU, you are limited to no preconditioning, or
-diagonal scaling. We are working on an independent plugin for mld2p4 
+diagonal scaling. We are working on an independent plugin for mld2p4
 (www.mld2p4.it) that will deliver better alternatives based on
 approximate inverses.  
 

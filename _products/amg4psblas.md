@@ -5,12 +5,12 @@ product_code: PSBLAS
 layout: product
 image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/amg4psblaslibrary.png
 features:
-    - label: Great addition to any scientific project
-      icon: fa-location-arrow
-    - label: Comes with a range of interfaces
-      icon: fa-grin-stars
+    - label: Parallel AMG Preconditioners
+      icon: fa-user-clock
+    - label: Domain Decomposition Preconditioners
+      icon: fa-puzzle-piece
     - label: Tested on tens of thousands of cores
-      icon: fa-fighter-jet
+      icon: fa-network-wired
 rating: 5
 order: 3
 ---
@@ -32,7 +32,7 @@ approach is applied to generate coarse-level corrections, so that
 no geometric background is needed concerning the matrix to be
 preconditioned.
 
-MLD2P4 has been designed to provide scalable and easy-to-use 
+MLD2P4 has been designed to provide scalable and easy-to-use
 preconditioners in the context of the PSBLAS (Parallel Sparse Basic
 Linear Algebra Subprograms) computational framework and is used
 in conjuction with the Krylov solvers available from PSBLAS. The
@@ -52,26 +52,26 @@ TO COMPILE
    adding the options for MUMPS, SuperLU, SuperLU_Dist, UMFPACK as desired.
    See MLD2P4 User's and Reference Guide (Section 3) for details.
 2. Tweak Make.inc if you are not satisfied.
-3. make; 
+3. make;
 4. Go into the test subdirectory and build the examples of your choice.
-5. (if desired): make install 
+5. (if desired): make install
 
 
 NOTES
 -----
 
 - The single precision version is supported only by MUMPS and SuperLU;
-  thus, even if you specify at configure time to use UMFPACK or SuperLU_Dist, 
+  thus, even if you specify at configure time to use UMFPACK or SuperLU_Dist,
   the corresponding preconditioner options will be available only from
   the double precision version.
 
 - The preconditioners in MLD2P4 extend those of PSBLAS and are meant
   to be used with the PSBLAS Krylov solvers; so in an existing program
   you need to modify the type of the preconditioner object and its
-  settings, but the rest of the application needs not be changed. 
-   
+  settings, but the rest of the application needs not be changed.
 
-The MLD2P4 team. 
+
+The MLD2P4 team.
 ----------------
 Project lead:
 Salvatore Filippone
