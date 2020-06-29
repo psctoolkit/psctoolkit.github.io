@@ -3,7 +3,7 @@ title: AMG4PSBLAS
 subtitle: Preconditioners for PSBLAS
 product_code: PSBLAS
 layout: product
-image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/amg4psblaslibrary.png
+image: /img/amg4psblaslibrary.png
 features:
     - label: Parallel AMG Preconditioners
       icon: fa-user-clock

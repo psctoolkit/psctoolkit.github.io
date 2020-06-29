@@ -3,7 +3,7 @@ title: PSBLAS-EXT
 subtitle: Parallel Sparse BLAS GPU Plugin
 product_code: PSBLAS
 layout: product
-image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/psblaslibraryext.png
+image: /img/psblaslibraryext.png
 features:
     - label: Add NVIDIA-GPU capabilities to your code
       icon: fa-microchip

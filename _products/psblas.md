@@ -3,7 +3,7 @@ title: PSBLAS
 subtitle: Parallel Sparse BLAS
 product_code: PSBLAS
 layout: product
-image: https://raw.githubusercontent.com/psctoolkit/psctoolkit.github.io/master/img/psblaslibrary.png
+image: /img/psblaslibrary.png
 features:
     - label: Great addition to any scientific project
       icon: fa-plus-square
