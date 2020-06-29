@@ -1,0 +1,14 @@
+- tier_name: Active Funding
+  size: large
+  description: |-
+    These are the projects currently financing the development of the psctoolkit libraries
+  sponsors:
+    - name: EoCoE-II
+      profile: https://www.eocoe.eu/
+- tier_name: Past Funding
+  description: |-
+    These are the concluded projects
+  sponsors:
+    - name: EoCoE-I
+    - name: Istituto Nazionale di Alta Matematica - Gruppo Nazionale Calcolo Scientifico
+      profile: https://www.altamatematica.it/gncs/
