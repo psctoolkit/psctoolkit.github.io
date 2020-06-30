@@ -1,6 +1,7 @@
 ---
 title: AMG4PSBLAS
 subtitle: Preconditioners for PSBLAS
+description: Parallel Algebraic Multigrid and Domain Decomposition Preconditioners
 product_code: PSBLAS
 layout: product
 image: /img/amg4psblaslibrary.png
@@ -15,7 +16,7 @@ rating: 5
 order: 3
 ---
 
-PSBLAS library
+AMG4PSBLAS library
 ===========================
 
 
@@ -77,7 +78,8 @@ Project lead:
 Salvatore Filippone
 
 Contributors:
-Pasqua     D'Ambra
-Daniela    di Serafino
-Ambra	   Abdullahi Hassan
-Alfredo    Buttari
+- Pasqua     D'Ambra
+- Daniela    di Serafino
+- Ambra	   Abdullahi Hassan
+- Alfredo    Buttari
+- Fabio      Durastante

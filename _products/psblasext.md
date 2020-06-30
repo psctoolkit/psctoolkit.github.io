@@ -1,6 +1,7 @@
 ---
 title: PSBLAS-EXT
 subtitle: Parallel Sparse BLAS GPU Plugin
+description: Parallel Sparse BLAS for an hybrid MPI-NVIDIA code
 product_code: PSBLAS
 layout: product
 image: /img/psblaslibraryext.png
@@ -37,8 +38,6 @@ with its prerequisites.
 To make use of the NVIDIA GPU you'll need:
 1. An installation of the CUDA toolkit (version 4.1 or later);
 2. The SPGPU code from http://spgpu.googlecode.com
-
-
 
 INSTALLING
 ----------
@@ -80,5 +79,5 @@ Report bugs to:
 
 Contributors
 ------------
- Salvatore Filippone     
- Alessandro Fanfarillo   
+- Salvatore Filippone     
+- Alessandro Fanfarillo   

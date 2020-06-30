@@ -1,6 +1,7 @@
 ---
 title: PSBLAS
 subtitle: Parallel Sparse BLAS
+description: Parallel Sparse Basic Linear Algebra Subroutines
 product_code: PSBLAS
 layout: product
 image: /img/psblaslibrary.png
@@ -118,14 +119,15 @@ Salvatore Filippone
 
 Contributors (roughly reverse cronological order):
 
-Soren 	   Rasmussen
-Zaak       Beekman
-Ambra	   Abdullahi Hassan
-Pasqua	   D'Ambra
-Alfredo    Buttari
-Daniela    di Serafino
-Michele    Martone
-Michele    Colajanni
-Fabio      Cerioni
-Stefano    Maiolatesi
-Dario      Pascucci
+- Soren 	   Rasmussen
+- Zaak       Beekman
+- Ambra	   Abdullahi Hassan
+- Pasqua	   D'Ambra
+- Alfredo    Buttari
+- Daniela    di Serafino
+- Michele    Martone
+- Michele    Colajanni
+- Fabio      Cerioni
+- Stefano    Maiolatesi
+- Dario      Pascucci
+- Fabio      Durastante
