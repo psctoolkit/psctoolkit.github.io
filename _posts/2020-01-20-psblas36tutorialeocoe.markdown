@@ -14,7 +14,9 @@ canonical_url: https://psctoolkit.github.io/training/2020/01/20/psblas36tutorial
 ---
 
 This tutorial will address the basic functionalities of the PSBLAS library for
-the parallelization of computationally intensive scientific applications. We
+the parallelization of computationally intensive scientific applications.
+
+We
 will delve into the parallel implementation of iterative solvers for sparse
 linear systems in a distributed memory paradigm, and look at the routines for
 multiplying sparse matrices by dense matrices, solving block diagonal systems
