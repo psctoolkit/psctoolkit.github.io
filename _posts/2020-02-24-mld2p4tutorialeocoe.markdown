@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MLD2P4: a Package of Parallel Algebraic MultiGrid Preconditioners for Scalable Linear Solvers"
-date:   2020-01-20 10:00:00
+date:   2020-02-24 10:00:00
 categories: training
 description: "Tutorial for the Learn@EoCoE Initiative"
 image: https://psctoolkit.github.io/img/training.png
