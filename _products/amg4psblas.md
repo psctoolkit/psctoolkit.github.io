@@ -51,13 +51,13 @@ TO COMPILE
 ----------
 0. Unpack the tar file in a directory of your choice (preferrably
    outside the main PSBLAS directory).
-1. run configure --with-psblas=<ABSOLUTE path of the PSBLAS install directory>
+1. run configure `--with-psblas=<ABSOLUTE path of the PSBLAS install directory>`
    adding the options for MUMPS, SuperLU, SuperLU_Dist, UMFPACK as desired.
    See MLD2P4 User's and Reference Guide (Section 3) for details.
 2. Tweak Make.inc if you are not satisfied.
-3. make;
+3. `make`
 4. Go into the test subdirectory and build the examples of your choice.
-5. (if desired): make install
+5. (if desired): `make install`
 
 
 NOTES
