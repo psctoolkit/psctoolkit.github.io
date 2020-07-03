@@ -4,9 +4,18 @@ email: eocoe@na.iac.cnr.it
 description: Scientific Computing towards the Exascale
 permalink: pretty
 favicon: /favicon.png # Favicon is in the standard position
+livereload: true
 
 paginate: 5
 paginate_path: "/blog/page:num"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
 
 collections:
   products:
