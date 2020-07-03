@@ -7,8 +7,7 @@ show_sidebar: false
 ## PSBLAS
 Publications describing the structure of the PSBLAS: Parallel Sparse BLAS, the library at the core of the psctoolkit
 1. S. Filippone, A. Buttari. Object-Oriented Techniques for Sparse Matrix Computations in Fortran 2003, ACM Trans. on Math. Software, vol. 38, No. 4, 2012.
-2. V. Cardellini, S. Filippone and D. Rouson. Design Patterns for sparse-matrix computations on hybrid CPU/GPU platforms, Scientific Programming, 22(2014), pp.1-19.
-3. S. Filippone, M. Colajanni. PSBLAS: A library for parallel linear algebra computation on sparse matrices, ACM Trans. on Math. Software, 26(4), Dec. 2000, pp. 527-550.
+2. S. Filippone, M. Colajanni. PSBLAS: A library for parallel linear algebra computation on sparse matrices, ACM Trans. on Math. Software, 26(4), Dec. 2000, pp. 527-550.
 
 ## AMG4PSBLAS
 This package was previously known as MLD2P4, these are the publication relative to its architecture and the preconditioner that implements.
@@ -23,14 +22,17 @@ A part from the papers describing the implementation and the features of the lib
 
 1. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore.  On the quality of matching-based aggregates for algebraic coarsening of SPD matrices in AMG. Preprint [arXiv:2001.09969](https://arxiv.org/abs/2001.09969)
 2. Abdullahi Hassan, Ambra; Cardellini, V.;  D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. "Efficient algebraic multigrid preconditioners on clusters of GPUs." Parallel Processing Letters 29.01 (2019): 1950001.
+3. Filippone, Salvatore; Cardellini, Valeria; Barbieri, Davide; Fanfarillo, Alessandro. Sparse matrix-vector multiplication on GPGPUs. ACM Trans. Math. Software 43 (2017), no. 4, Art. 30, 49 pp.
 3. D'Ambra, Pasqua; Filippone, Salvatore; Vassilevski, Panayot S. BootCMatch: a software package for bootstrap AMG based on graph weighted matching. ACM Trans. Math. Software 44 (2018), no. 4, Art. 39, 25 pp.
 4. Bertaccini, Daniele; Filippone, Salvatore. Sparse approximate inverse preconditioners on high performance GPU platforms. Comput. Math. Appl. 71 (2016), no. 3, 693--711.
 5. Barbieri, D., Cardellini, V., Filippone, S., & Rouson, D. (2011, August). Design patterns for scientific computations on sparse matrices. In European Conference on Parallel Processing (pp. 367-376). Springer, Berlin, Heidelberg.
+6. V. Cardellini, S. Filippone and D. Rouson. Design Patterns for sparse-matrix computations on hybrid CPU/GPU platforms, Scientific Programming, 22(2014), pp.1-19.
 
-## psctoolkit on the field
+## psctoolkit in the field
 This is a list of works that used the libraries from psctoolkit, if you have a work in which you use one of the libraries please [let us know](mailto:eocoe@na.iac.cnr.it?subject=[psctoolkit]%20New%20application)
 
 1. D'Ambra, Pasqua; Filippone, Salvatore. A parallel generalized relaxation method for high-performance image segmentation on GPUs. J. Comput. Appl. Math. 293 (2016), 35--44.
+2. Aprovitola, Andrea; D'Ambra, Pasqua; Denaro, Filippo M.; di Serafino, Daniela; Filippone, Salvatore. SParC-LES: enabling large eddy simulations with parallel sparse matrix computation tools. Comput. Math. Appl. 70 (2015), no. 11, 2688--2700.
 2. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. Performance analysis of parallel Schwarz preconditioners in the LES of turbulent channel flows. Comput. Math. Appl. 65 (2013), no. 3, 352--361.
 3. Borzì, Alfio; De Simone, Valentina; di Serafino, Daniela. Parallel algebraic multilevel Schwarz preconditioners for a class of elliptic PDE systems. Comput. Vis. Sci. 16 (2013), no. 1, 1--14.
 4. Marian, V. G., Gabriel, D., Knoll, G., & Filippone, S. (2011). Theoretical and experimental analysis of a laser textured thrust bearing. Tribology letters, 44(3), 335.
