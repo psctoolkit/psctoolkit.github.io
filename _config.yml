@@ -3,7 +3,6 @@ title: Parallel Sparse Computation Toolkit
 email: eocoe@na.iac.cnr.it
 description: Scientific Computing towards the Exascale
 permalink: pretty
-url: "psctoolkit.github.io"
 favicon: /favicon.png # Favicon is in the standard position
 
 paginate: 5
