@@ -1,3 +1,5 @@
+- name: News
+  link: /blog/
 - name: Publications
   link: /publication/
 - name: Libraries
