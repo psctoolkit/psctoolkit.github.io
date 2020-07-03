@@ -1,10 +1,15 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 title: Parallel Sparse Computation Toolkit
+email: eocoe@na.iac.cnr.it
 description: Scientific Computing towards the Exascale
 permalink: pretty
 favicon: /favicon.png # Favicon is in the standard position
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
 collections:
-  products: 
+  products:
     output: true
     layout: product
     image: https://via.placeholder.com/800x600
