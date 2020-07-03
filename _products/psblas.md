@@ -12,7 +12,7 @@ features:
       icon: fa-handshake
     - label: Tested on tens of thousands of cores
       icon: fa-network-wired
-rating: 5
+ratings: 0
 order: 1
 ---
 
