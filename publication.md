@@ -36,5 +36,5 @@ This is a list of works that used the libraries from psctoolkit, if you have a w
 2. Aprovitola, Andrea; D'Ambra, Pasqua; Denaro, Filippo M.; di Serafino, Daniela; Filippone, Salvatore. SParC-LES: enabling large eddy simulations with parallel sparse matrix computation tools. Comput. Math. Appl. 70 (2015), no. 11, 2688--2700.
 2. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. Performance analysis of parallel Schwarz preconditioners in the LES of turbulent channel flows. Comput. Math. Appl. 65 (2013), no. 3, 352--361.
 3. Borzì, Alfio; De Simone, Valentina; di Serafino, Daniela. Parallel algebraic multilevel Schwarz preconditioners for a class of elliptic PDE systems. Comput. Vis. Sci. 16 (2013), no. 1, 1--14.
-4. Marian, V. G., Gabriel, D., Knoll, G., & Filippone, S. (2011). Theoretical and experimental analysis of a laser textured thrust bearing. Tribology letters, 44(3), 335.
+4. Marian, V. G., Gabriel, D., Knoll, G., Filippone, S. (2011). Theoretical and experimental analysis of a laser textured thrust bearing. Tribology letters, 44(3), 335.
 5. Aprovitola, Andrea; D'Ambra, Pasqua; Denaro, Filippo; di Serafino, Daniela; Filippone, Salvatore. Scalable algebraic multilevel preconditioners with application to CFD. Parallel computational fluid dynamics 2008, 15--27, Lect. Notes Comput. Sci. Eng., 74, Springer, Heidelberg, 2010.
