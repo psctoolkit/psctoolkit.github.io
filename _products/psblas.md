@@ -44,6 +44,10 @@ The main reference for the serial sparse BLAS is:
 >ACM Trans. Math. Softw., 23(3), 379-401, 1997.
 
 
+RELEASE
+-------
+Library releases can be downloaded from: [psblas3/releases](https://github.com/sfilippone/psblas3/releases)
+
 INSTALLING
 ----------
 To compile and run our software you will need the following
@@ -119,6 +123,7 @@ Salvatore Filippone
 
 Contributors (roughly reverse cronological order):
 
+- Fabio      Durastante
 - Soren 	   Rasmussen
 - Zaak       Beekman
 - Ambra	   Abdullahi Hassan
@@ -130,4 +135,3 @@ Contributors (roughly reverse cronological order):
 - Fabio      Cerioni
 - Stefano    Maiolatesi
 - Dario      Pascucci
-- Fabio      Durastante

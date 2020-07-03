@@ -12,29 +12,26 @@ features:
       icon: fa-puzzle-piece
     - label: Tested on tens of thousands of cores
       icon: fa-network-wired
-rating: 5
 order: 3
 ---
 
 AMG4PSBLAS library
 ===========================
 
-
-This package provides parallel Algebraic MultiGrid (AMG)
-and Domain Decomposition preconditioners, to be used in the
+This package provides parallel Algebraic MultiGrid (AMG), to be used in the
 iterative solution of linear systems.
 
-The name of the package comes from its original implementation,
+The package is an evolution of the MLD2P4 package  
 containing multilevel additive and hybrid Schwarz preconditioners,
 as well as one-level additive Schwarz preconditioners. The current
 version extends the original plan by including multilevel cycles
-and smoothers widely used in multigrid methods. A purely algebraic
+and smoothers widely used in multigrid methods. In AMG4PSBLAS a purely algebraic
 approach is applied to generate coarse-level corrections, so that
 no geometric background is needed concerning the matrix to be
 preconditioned.
 
-MLD2P4 has been designed to provide scalable and easy-to-use
-preconditioners in the context of the PSBLAS (Parallel Sparse Basic
+AMG4PSBLAS has been designed to provide scalable and easy-to-use preconditioners
+in the context of the PSBLAS (Parallel Sparse Basic
 Linear Algebra Subprograms) computational framework and is used
 in conjuction with the Krylov solvers available from PSBLAS. The
 package employs object-oriented design techniques in Fortran 2003,
@@ -44,9 +41,13 @@ multilevel preconditioners. The parallel implementation is based on
 a Single Program Multiple Data (SPMD) paradigm; the inter-process
 communication is based on MPI and is managed mainly through PSBLAS.
 
+RELEASE
+-------
+Library releases for AGM4PSBLAS are coming...
+Library releases for MLD2P4 can be downloaded from: [amg4psblas/releases](https://github.com/sfilippone/mld2p4-2/releases)
+
 TO COMPILE
 ----------
-
 0. Unpack the tar file in a directory of your choice (preferrably
    outside the main PSBLAS directory).
 1. run configure --with-psblas=<ABSOLUTE path of the PSBLAS install directory>
@@ -60,26 +61,23 @@ TO COMPILE
 
 NOTES
 -----
-
 - The single precision version is supported only by MUMPS and SuperLU;
   thus, even if you specify at configure time to use UMFPACK or SuperLU_Dist,
   the corresponding preconditioner options will be available only from
   the double precision version.
-
-- The preconditioners in MLD2P4 extend those of PSBLAS and are meant
+- The preconditioners in AMG4PSBLAS extend those of PSBLAS and are meant
   to be used with the PSBLAS Krylov solvers; so in an existing program
   you need to modify the type of the preconditioner object and its
   settings, but the rest of the application needs not be changed.
 
-
-The MLD2P4 team.
+The AMG4PSBLAS team.
 ----------------
-Project lead:
-Salvatore Filippone
-
 Contributors:
-- Pasqua     D'Ambra
-- Daniela    di Serafino
-- Ambra	   Abdullahi Hassan
-- Alfredo    Buttari
-- Fabio      Durastante
+- Pasqua D'Ambra
+- Fabio Durastante
+- Salvatore Filippone
+
+Contributors to MLD2P4:
+- Daniela di Serafino
+- Ambra Abdullahi Hassan
+- Alfredo Buttari

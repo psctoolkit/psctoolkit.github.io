@@ -10,7 +10,6 @@ features:
       icon: fa-microchip
     - label: Tested on thousands of GPUs
       icon: fa-fighter-jet
-rating: 5
 order: 2
 ---
 
@@ -38,6 +37,10 @@ with its prerequisites.
 To make use of the NVIDIA GPU you'll need:
 1. An installation of the CUDA toolkit (version 4.1 or later);
 2. The SPGPU code from http://spgpu.googlecode.com
+
+RELEASE
+-------
+Library releases can be downloaded from: [psblas3-ext/releases](https://github.com/sfilippone/psblas3-ext/releases)
 
 INSTALLING
 ----------
