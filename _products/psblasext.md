@@ -73,7 +73,7 @@ solves on the GPU is very bad: we enable it in CSRG and HYBG, we do
 not even bother to implement it in ELG and HLG.  
 So if you use the GPU, you are limited to no preconditioning, or
 diagonal scaling. We are working on an independent plugin for mld2p4
-(www.mld2p4.it) that will deliver better alternatives based on
+that will deliver better alternatives based on
 approximate inverses.  
 
 

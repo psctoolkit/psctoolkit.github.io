@@ -44,7 +44,8 @@ communication is based on MPI and is managed mainly through PSBLAS.
 RELEASE
 -------
 Library releases for AGM4PSBLAS are coming...
-Library releases for MLD2P4 can be downloaded from: [amg4psblas/releases](https://github.com/sfilippone/mld2p4-2/releases)
+
+Library releases for MLD2P4 can be downloaded from: [mld2p4/releases](https://github.com/sfilippone/mld2p4-2/releases)
 
 TO COMPILE
 ----------
