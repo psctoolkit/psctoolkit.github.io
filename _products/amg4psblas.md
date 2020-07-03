@@ -8,7 +8,7 @@ image: /img/amg4psblaslibrary.png
 features:
     - label: Parallel AMG Preconditioners
       icon: fa-user-clock
-    - label: Domain Decomposition Preconditioners
+    - label: Highly Parallel Smoothers
       icon: fa-puzzle-piece
     - label: Tested on tens of thousands of cores
       icon: fa-network-wired

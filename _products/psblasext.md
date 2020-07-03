@@ -22,10 +22,10 @@ This package contains:
 1. Extended matrix formats: ELLPACK, Hacked ELLPACK, DIAgonals, Hacked
    DIAgonals. Note: DIA and HDIA have limited support.      
 2. A GPU plugin: gpu-enabled versions of the above, with the CUDA code
-   from http://spgpu.googlecode.com,  plus interfaces to
+   from [davidebarbieri/spgpu](https://github.com/davidebarbieri/spgpu), plus interfaces to
    CSR and HYB formats available in the NVIDIA CuSPARSE lib.
    Note: DIAG and HDIAG have limited support.
-3. RSB: an interface to http://sourceforge.net/projects/librsb
+3. RSB: an interface to [librsb](http://sourceforge.net/projects/librsb)
 
 
 PREREQUISITES
@@ -36,7 +36,7 @@ with its prerequisites.
 
 To make use of the NVIDIA GPU you'll need:
 1. An installation of the CUDA toolkit (version 4.1 or later);
-2. The SPGPU code from http://spgpu.googlecode.com
+2. The SPGPU code from [davidebarbieri/spgpu](https://github.com/davidebarbieri/spgpu)
 
 RELEASE
 -------
@@ -55,8 +55,9 @@ make;
 make install
 ```
 
-Note: we have only tested with GNU Fortran compiler.
-Note: CUDA nvcc typically lags behind the latest  versions of GCC/GNU
+*Note:* we have only tested with GNU Fortran compiler.
+
+*Note:* CUDA nvcc typically lags behind the latest  versions of GCC/GNU
       Fortran; currently nvcc supports GCC 4.8 so this is the preferred choice.
       Mixing SPGPU CUDA code  compiled with an older version and the rest with
       e.g. 4.9 has  worked fine so far: YMMV.  
@@ -65,7 +66,6 @@ Note: CUDA nvcc typically lags behind the latest  versions of GCC/GNU
 TODO
 ----
 Improve MPI support.
-
 
 WHAT IS NOT HERE
 ----------------
