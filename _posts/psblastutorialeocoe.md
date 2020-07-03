@@ -6,6 +6,7 @@ categories: training
 description: "Tutorial for the Learn@EoCoE Initiative"
 image: /img/training.png
 published: true
+canonical_url: https://psctoolkit.github.io/training/2020/01/20/psblas36tutorialeocoe.html
 ---
 
 This tutorial will address the basic functionalities of the PSBLAS library for
@@ -24,4 +25,4 @@ parallel codes.
 
 This tutorial is part of the [Learn@EoCoE initiative](https://www.eocoe.eu/video_resource/psblas-3-6-sparse-matrices-computation-iterative-solvers-for-hpc-january-20th-2020/).
 
-[![PSBLAS 3.6 - Click to Watch!](img/eocoepsblastutorial.png)](https://youtu.be/4CHI76zFoPc "PSBLAS 3.6 - Click to Watch!")
+[![PSBLAS 3.6 - Click to Watch!](/img/eocoepsblastutorial.png)](https://youtu.be/4CHI76zFoPc "PSBLAS 3.6 - Click to Watch!")
