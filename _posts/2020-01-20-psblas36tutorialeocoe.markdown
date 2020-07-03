@@ -6,6 +6,10 @@ categories: training
 description: "Tutorial for the Learn@EoCoE Initiative"
 image: https://psctoolkit.github.io/img/training.png
 published: true
+author: F. Durastante
+hero_image: https://psctoolkit.github.io/img/training.png
+hero_height: is-large
+hero_darken: true
 canonical_url: https://psctoolkit.github.io/training/2020/01/20/psblas36tutorialeocoe.html
 ---
 
