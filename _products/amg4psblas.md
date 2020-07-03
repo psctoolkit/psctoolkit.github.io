@@ -2,7 +2,7 @@
 title: AMG4PSBLAS
 subtitle: Preconditioners for PSBLAS
 description: Parallel Algebraic Multigrid and Domain Decomposition Preconditioners
-product_code: PSBLAS
+product_code: AMG4PSBLAS
 layout: product
 image: /img/amg4psblaslibrary.png
 features:

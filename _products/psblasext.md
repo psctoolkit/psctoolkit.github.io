@@ -2,7 +2,7 @@
 title: PSBLAS-EXT
 subtitle: Parallel Sparse BLAS GPU Plugin
 description: Parallel Sparse BLAS for an hybrid MPI-NVIDIA code
-product_code: PSBLAS
+product_code: PSBLAS-EXT
 layout: product
 image: /img/psblaslibraryext.png
 features:
