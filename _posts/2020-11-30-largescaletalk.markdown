@@ -13,8 +13,8 @@ hero_darken: true
 canonical_url: https://psctoolkit.github.io/seminar/2020/11/30/largescaletalkpisa.html
 ---
 
-NumPI seminars 2020-2021 - Numerical Analysis Seminars - Pisa
-F. Durastante - IAC-CNR
+NumPI seminars 2020-2021 - Numerical Analysis Seminars - Pisa - Tuesday, 01/12/2020, 16:00 CET
+by F. Durastante - IAC-CNR
 
 Sparse linear algebra is essential for a wide variety of scientific applications.
 The availability of highly parallel sparse solvers and preconditioners lies at the
