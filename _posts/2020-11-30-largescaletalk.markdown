@@ -4,7 +4,7 @@ title:  "(Sparse) Linear Algebra at the Extreme Scales"
 date:   2020-11-30 10:00:00
 categories: seminar
 description: "Tutorial for the Learn@EoCoE Initiative"
-image: https://psctoolkit.github.io/img/training.png
+image: https://psctoolkit.github.io/img/seminar.png
 published: true
 author: F. Durastante
 hero_image: https://psctoolkit.github.io/img/seminar.png
@@ -14,6 +14,7 @@ canonical_url: https://psctoolkit.github.io/seminar/2020/11/30/largescaletalkpis
 ---
 
 NumPI seminars 2020-2021 - Numerical Analysis Seminars - Pisa
+F. Durastante - IAC-CNR
 
 Sparse linear algebra is essential for a wide variety of scientific applications.
 The availability of highly parallel sparse solvers and preconditioners lies at the
