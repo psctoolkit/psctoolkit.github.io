@@ -3,7 +3,7 @@ layout: post
 title:  "(Sparse) Linear Algebra at the Extreme Scales"
 date:   2020-11-30 10:00:00
 categories: seminar
-description: "Tutorial for the Learn@EoCoE Initiative"
+description: "Pisa Numerical Analysis Seminars"
 image: https://psctoolkit.github.io/img/seminar.png
 published: true
 author: F. Durastante
