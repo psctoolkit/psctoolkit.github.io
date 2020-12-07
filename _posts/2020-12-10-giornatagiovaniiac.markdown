@@ -10,7 +10,7 @@ author: F. Durastante
 hero_image: https://psctoolkit.github.io/img/seminar.png
 hero_height: is-large
 hero_darken: true
-canonical_url: https://psctoolkit.github.io/seminar/2020/11/30/largescaletalkpisa.html
+canonical_url: https://psctoolkit.github.io/seminar/2020/12/10/largescaletalkcnr.html
 ---
 
 **IAC Young Researchers Day. 2020** edition
