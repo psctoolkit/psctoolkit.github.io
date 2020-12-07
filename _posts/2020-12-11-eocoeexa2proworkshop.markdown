@@ -21,9 +21,9 @@ All the sessions including hands-on will be done remotely. the hands-on session 
 
 [**Registration is necessary**](https://indico.math.cnrs.fr/event/6415/registrations/485/) so that we can communicate further information and the links to the virtual conference rooms before the workshop.
 
-EXA2PRO website: https://exa2pro.eu/
+EXA2PRO website: [https://exa2pro.eu/](https://exa2pro.eu/)
 
-EoCoE website: https://www.eocoe.eu/
+EoCoE website: [https://www.eocoe.eu/](https://www.eocoe.eu/)
 
 We are involved in two sessions on Wednesday, 24 February from 16.00 to 17.30 (Europe/Paris timezone) on **Extreme-scale computation with PSBLAS and AMG4PSBLAS**. See the
 [full timetable](https://indico.math.cnrs.fr/event/6415/timetable/#20210222.detailed) with the information on the other trainings.
