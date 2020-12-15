@@ -20,14 +20,15 @@ This package was previously known as MLD2P4, these are the publication relative 
 ## Methodologies, Theoretical and Technical Challenges
 A part from the papers describing the implementation and the features of the libraries, a great deal of work is dedicated to answering theoretical questions, develop new algorithms, and solve technical and technological challenges. We collect here works related to these tasks.
 
-1. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore.  On the quality of matching-based aggregates for algebraic coarsening of SPD matrices in AMG. Preprint [arXiv:2001.09969](https://arxiv.org/abs/2001.09969)
-2. Abdullahi Hassan, Ambra; Cardellini, Valeria;  D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. "Efficient algebraic multigrid preconditioners on clusters of GPUs." Parallel Processing Letters 29.01 (2019): 1950001.
-3. Filippone, Salvatore; Cardellini, Valeria; Barbieri, Davide; Fanfarillo, Alessandro. Sparse matrix-vector multiplication on GPGPUs. ACM Trans. Math. Software 43 (2017), no. 4, Art. 30.
-3. D'Ambra, Pasqua; Filippone, Salvatore; Vassilevski, Panayot S. BootCMatch: a software package for bootstrap AMG based on graph weighted matching. ACM Trans. Math. Software 44 (2018), no. 4, Art. 39, 25 pp.
-4. Bertaccini, Daniele; Filippone, Salvatore. Sparse approximate inverse preconditioners on high performance GPU platforms. Comput. Math. Appl. 71 (2016), no. 3, 693--711.
-5. Barbieri, Domenico; Cardellini, Valeria; Filippone, Salvatore; Rouson, Damian. (2011, August). Design patterns for scientific computations on sparse matrices. In European Conference on Parallel Processing (pp. 367-376). Springer, Berlin, Heidelberg.
-6. Cardellini, Valeria; Filippone, Salvatore; Rouson, Damian. Design Patterns for sparse-matrix computations on hybrid CPU/GPU platforms, Scientific Programming, 22(2014), pp.1-19.
-7. D’Ambra, Pasqua; Vassilevski, Panayot, S. Adaptive AMG with Coarsening based on Compatible Weighted Matching, Computing and Visualization in Science, Vol. 16, 2013, pp. 59-76.
+1. Bernaschi, Massimo; Pasqua D’Ambra; Dario Pasquini. BootCMatchG: An adaptive Algebraic MultiGrid linear solver for GPUs. Software Impacts (2020): 100041.
+2. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore.  On the quality of matching-based aggregates for algebraic coarsening of SPD matrices in AMG. Preprint [arXiv:2001.09969](https://arxiv.org/abs/2001.09969)
+3. Abdullahi Hassan, Ambra; Cardellini, Valeria;  D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. "Efficient algebraic multigrid preconditioners on clusters of GPUs." Parallel Processing Letters 29.01 (2019): 1950001.
+4. Filippone, Salvatore; Cardellini, Valeria; Barbieri, Davide; Fanfarillo, Alessandro. Sparse matrix-vector multiplication on GPGPUs. ACM Trans. Math. Software 43 (2017), no. 4, Art. 30.
+5. D'Ambra, Pasqua; Filippone, Salvatore; Vassilevski, Panayot S. BootCMatch: a software package for bootstrap AMG based on graph weighted matching. ACM Trans. Math. Software 44 (2018), no. 4, Art. 39, 25 pp.
+6. Bertaccini, Daniele; Filippone, Salvatore. Sparse approximate inverse preconditioners on high performance GPU platforms. Comput. Math. Appl. 71 (2016), no. 3, 693--711.
+7. Barbieri, Domenico; Cardellini, Valeria; Filippone, Salvatore; Rouson, Damian. (2011, August). Design patterns for scientific computations on sparse matrices. In European Conference on Parallel Processing (pp. 367-376). Springer, Berlin, Heidelberg.
+8. Cardellini, Valeria; Filippone, Salvatore; Rouson, Damian. Design Patterns for sparse-matrix computations on hybrid CPU/GPU platforms, Scientific Programming, 22(2014), pp.1-19.
+9. D’Ambra, Pasqua; Vassilevski, Panayot, S. Adaptive AMG with Coarsening based on Compatible Weighted Matching, Computing and Visualization in Science, Vol. 16, 2013, pp. 59-76.
 
 ## psctoolkit in the field
 This is a list of works that used the libraries from psctoolkit, if you have a work in which you use one of the libraries please [let us know](mailto:eocoe@na.iac.cnr.it?subject=[psctoolkit]%20New%20application)
