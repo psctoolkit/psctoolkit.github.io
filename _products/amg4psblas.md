@@ -74,7 +74,7 @@ NOTES
 The AMG4PSBLAS team.
 ----------------
 Contributors:
-- Pasqua D'Ambra
+- [Pasqua D'Ambra](https://www.iac.cnr.it/~dambra/)
 - Fabio Durastante
 - Salvatore Filippone
 

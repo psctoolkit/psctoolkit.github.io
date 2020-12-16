@@ -127,7 +127,7 @@ Contributors (roughly reverse cronological order):
 - Soren 	   Rasmussen
 - Zaak       Beekman
 - Ambra	   Abdullahi Hassan
-- Pasqua	   D'Ambra
+- [Pasqua	   D'Ambra](https://www.iac.cnr.it/~dambra/)
 - Alfredo    Buttari
 - Daniela    di Serafino
 - Michele    Martone
