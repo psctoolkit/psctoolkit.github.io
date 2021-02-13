@@ -123,7 +123,7 @@ Salvatore Filippone
 
 Contributors (roughly reverse cronological order):
 
-- Fabio      Durastante
+- [Fabio Durastante](https://fdurastante.github.io)
 - Soren 	   Rasmussen
 - Zaak       Beekman
 - Ambra	   Abdullahi Hassan

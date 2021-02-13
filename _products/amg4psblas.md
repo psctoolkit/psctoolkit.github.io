@@ -75,7 +75,7 @@ The AMG4PSBLAS team.
 ----------------
 Contributors:
 - [Pasqua D'Ambra](https://www.iac.cnr.it/~dambra/)
-- Fabio Durastante
+- [Fabio Durastante](https://fdurastante.github.io)
 - Salvatore Filippone
 
 Contributors to MLD2P4:
