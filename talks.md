@@ -10,7 +10,7 @@ show_sidebar: false
 - (Sparse) Linear Algebra at the Extreme Scale - NumPi Seminar - 1/12/2020 - [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-pisa.pdf) [📺](https://hausdorff.dm.unipi.it/playback/presentation/2.0/playback.html?meetingId=17ca0638f7f10736d9763c7b4725704981e43265-1606834059719)
 
 **Tutorials:**
-- Demonstration of PSBLAS and AMG4PSBLAS for solving sparse linear systems on parallel hybrid architectures - 24/02/2021 - [📄](https://psctoolkit.github.io/talks/tutorialAMG4PSBLAS_eocoeexa2pro.pdf)
-- PSBLAS 3.7 Sparse Computation & Iterative Solvers for HPC - 24/02/2021 - [📄](https://psctoolkit.github.io/talks/tutorialPSBLAS_eocoeexa2pro.pdf)
+- Demonstration of PSBLAS and AMG4PSBLAS for solving sparse linear systems on parallel hybrid architectures - 24/02/2021 - [📄](https://psctoolkit.github.io/talks/tutorialAMG4PSBLAS_eocoeexa2pro.pdf) [📺](https://www.youtube.com/watch?v=gTWYHzG606Q)
+- PSBLAS 3.7 Sparse Computation & Iterative Solvers for HPC - 24/02/2021 - [📄](https://psctoolkit.github.io/talks/tutorialPSBLAS_eocoeexa2pro.pdf) [📺](https://www.youtube.com/watch?v=gTWYHzG606Q)
 - MLD2P4 a Package of Parallel Algebraic MultiGrid Preconditioners for Scalable Linear Solvers - 24/02/2020 - [📄](https://psctoolkit.github.io/talks/tutorialMLD2P4_eocoe2020.pdf) [📺](https://youtu.be/Hp9LLeRuFm0)
 - PSBLAS 3.6 Sparse Computation & Iterative Solvers for HPC - 20/01/2020 - [📄](https://psctoolkit.github.io/talks/tutorialPSBLAS_eocoe2020.pdf) [📺](https://youtu.be/4CHI76zFoPc)
