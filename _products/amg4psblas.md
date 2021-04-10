@@ -61,13 +61,13 @@ Library releases for AGM4PSBLAS.
 
 |Release | Date | Sources                        | Documentation             |
 |--------|------|--------------------------------|---------------------------|
-| Version 1.0-RC1|      | ![ZIP](/img/zipicon.png){:height="18px" width="18px"}  ![Archive](/img/archiveicon.png){:height="18px" width="18px"}  | ![PDF](/img/pdficon.png){:height="18px" width="18px"} [![HTML](/img/htmlicon.png){:height="18px" width="18px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  |      
+| Version 1.0-RC1|      | ![ZIP](/img/zipicon.png){:height="24px" width="24px"}  ![Archive](/img/archiveicon.png){:height="24px" width="24px"}  | ![PDF](/img/pdficon.png){:height="24px" width="24px"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  |      
 
 Library releases for MLD2P4 can be downloaded from: [mld2p4/releases](https://github.com/sfilippone/mld2p4-2/releases)
 
 |Release | Date       | Sources                               |
 |--------|------------|---------------------------------------|
-| Version 2.2.2  | 6 May 2020 | [![ZIP](/img/zipicon.png){:height="18px" width="18px"}](https://github.com/sfilippone/mld2p4-2/archive/refs/tags/v2.2.2.zip)  [![Archive](/img/archiveicon.png){:height="18px" width="18px"}](https://github.com/sfilippone/mld2p4-2/archive/refs/tags/v2.2.2.tar.gz) |
+| Version 2.2.2  | 6 May 2020 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/mld2p4-2/archive/refs/tags/v2.2.2.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/mld2p4-2/archive/refs/tags/v2.2.2.tar.gz) |
 
 
 DOCUMENTATION
