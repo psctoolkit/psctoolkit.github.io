@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>GPU example</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)"> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)"> 
+<!-- html,3 --> 
+<meta name="src" content="userhtml.tex"> 
+<link rel="stylesheet" type="text/css" href="userhtml.css"> 
+</head><body 
+>
+   <!--l. 420--><div class="crosslinks"><p class="noindent"><span 
+class="cmr-12">[</span><a 
+href="userhtmlsu6.html" ><span 
+class="cmr-12">prev</span></a><span 
+class="cmr-12">] [</span><a 
+href="userhtmlsu6.html#tailuserhtmlsu6.html" ><span 
+class="cmr-12">prev-tail</span></a><span 
+class="cmr-12">] [</span><a 
+href="#tailuserhtmlsu7.html"><span 
+class="cmr-12">tail</span></a><span 
+class="cmr-12">] [</span><a 
+href="userhtmlse4.html#userhtmlsu7.html" ><span 
+class="cmr-12">up</span></a><span 
+class="cmr-12">] </span></p></div>
+   <h4 class="subsectionHead"><span class="titlemark"><span 
+class="cmr-12">4.2   </span></span> <a 
+ id="x16-150004.2"></a><span 
+class="cmr-12">GPU example</span></h4>
+<!--l. 422--><p class="noindent" ><span 
+class="cmr-12">The code discussed here shows how to set up a program exploiting the combined GPU</span>
+<span 
+class="cmr-12">capabilities of PSBLAS and AMG4PSBLAS. The code example is available in the</span>
+<span 
+class="cmr-12">source distribution directory </span><span class="obeylines-h"><span class="verb"><span 
+class="cmtt-12">amg4psblas/examples/gpu</span></span></span><span 
+class="cmr-12">.</span>
+<!--l. 427--><p class="indent" >   <span 
+class="cmr-12">First of all, we need to include the appropriate modules and declare some auxiliary</span>
+<span 
+class="cmr-12">variables:</span>
+                                                                               
+
+                                                                               
+<!--l. 429--><p class="indent" >   <a 
+ id="x16-15001r5"></a><hr class="float"><div class="float" 
+>
+                                                                               
+
+                                                                               
+<div class="center" 
+>
+<!--l. 448--><p class="noindent" >
+<div class="minipage"><pre class="verbatim" id="verbatim-10">
+program&#x00A0;amg_dexample_gpu
+&#x00A0;&#x00A0;use&#x00A0;psb_base_mod
+&#x00A0;&#x00A0;use&#x00A0;amg_prec_mod
+&#x00A0;&#x00A0;use&#x00A0;psb_krylov_mod
+&#x00A0;&#x00A0;use&#x00A0;psb_util_mod
+&#x00A0;&#x00A0;use&#x00A0;psb_gpu_mod
+&#x00A0;&#x00A0;use&#x00A0;data_input
+&#x00A0;&#x00A0;use&#x00A0;amg_d_pde_mod
+&#x00A0;&#x00A0;implicit&#x00A0;none
+&#x00A0;&#x00A0;.......
+&#x00A0;&#x00A0;!&#x00A0;GPU&#x00A0;variables
+&#x00A0;&#x00A0;type(psb_d_hlg_sparse_mat)&#x00A0;::&#x00A0;agmold
+&#x00A0;&#x00A0;type(psb_d_vect_gpu)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;::&#x00A0;vgmold
+&#x00A0;&#x00A0;type(psb_i_vect_gpu)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;::&#x00A0;igmold
+&#x00A0;
+</pre>
+<!--l. 467--><p class="nopar" ></div></div>
+<br /> <div class="caption" 
+><span class="id">Listing 5: </span><span  
+class="content">setup of a GPU-enabled test program part one.</span></div><!--tex4ht:label?: x16-15001r5 -->
+                                                                               
+
+                                                                               
+   </div><hr class="endfloat" />
+<!--l. 474--><p class="indent" >   <span 
+class="cmr-12">In this particular example we are choosing to employ a </span><span class="obeylines-h"><span class="verb"><span 
+class="cmtt-12">HLG</span></span></span> <span 
+class="cmr-12">data structure for</span>
+<span 
+class="cmr-12">sparse matrices on GPUs; for more information please refer to the PSBLAS-EXT users&#8217;</span>
+<span 
+class="cmr-12">guide.</span>
+<!--l. 478--><p class="indent" >   <span 
+class="cmr-12">We then have to initialize the GPU environment, and pass the appropriate MOLD</span>
+<span 
+class="cmr-12">variables to the build methods (see also the PSBLAS and PSBLAS-EXT users&#8217;</span>
+<span 
+class="cmr-12">guides).</span>
+                                                                               
+
+                                                                               
+<!--l. 481--><p class="indent" >   <a 
+ id="x16-15002r6"></a><hr class="float"><div class="float" 
+>
+                                                                               
+
+                                                                               
+<div class="center" 
+>
+<!--l. 497--><p class="noindent" >
+<div class="minipage"><pre class="verbatim" id="verbatim-11">
+&#x00A0;&#x00A0;call&#x00A0;psb_init(ctxt)
+&#x00A0;&#x00A0;call&#x00A0;psb_info(ctxt,iam,np)
+&#x00A0;&#x00A0;!
+&#x00A0;&#x00A0;!&#x00A0;BEWARE:&#x00A0;if&#x00A0;you&#x00A0;have&#x00A0;NGPUS&#x00A0;&#x00A0;per&#x00A0;node,&#x00A0;the&#x00A0;default&#x00A0;is&#x00A0;to
+&#x00A0;&#x00A0;!&#x00A0;attach&#x00A0;to&#x00A0;mod(IAM,NGPUS)
+&#x00A0;&#x00A0;!
+&#x00A0;&#x00A0;call&#x00A0;psb_gpu_init(ictxt)
+&#x00A0;&#x00A0;......
+&#x00A0;&#x00A0;t1&#x00A0;=&#x00A0;psb_wtime()
+&#x00A0;&#x00A0;call&#x00A0;prec%smoothers_build(a,desc_a,info,&#x00A0;amold=agmold,&#x00A0;vmold=vgmold,&#x00A0;imold=igmold)
+&#x00A0;
+</pre>
+<!--l. 512--><p class="nopar" ></div></div>
+<br /> <div class="caption" 
+><span class="id">Listing 6: </span><span  
+class="content">setup of a GPU-enabled test program part two.</span></div><!--tex4ht:label?: x16-15002r6 -->
+                                                                               
+
+                                                                               
+   </div><hr class="endfloat" />
+<!--l. 519--><p class="indent" >   <span 
+class="cmr-12">Finally, we convert the input matrix, the descriptor and the vectors to use a</span>
+<span 
+class="cmr-12">GPU-enabled internal storage format. We then preallocate the preconditioner</span>
+<span 
+class="cmr-12">workspace before entering the Krylov method. At the end of the code, we close the</span>
+<span 
+class="cmr-12">GPU environment</span>
+                                                                               
+
+                                                                               
+<!--l. 523--><p class="indent" >   <a 
+ id="x16-15003r7"></a><hr class="float"><div class="float" 
+>
+                                                                               
+
+                                                                               
+<div class="center" 
+>
+<!--l. 552--><p class="noindent" >
+<div class="minipage"><pre class="verbatim" id="verbatim-12">
+&#x00A0;&#x00A0;call&#x00A0;desc_a%cnv(mold=igmold)
+&#x00A0;&#x00A0;call&#x00A0;a%cscnv(info,mold=agmold)
+&#x00A0;&#x00A0;call&#x00A0;psb_geasb(x,desc_a,info,mold=vgmold)
+&#x00A0;&#x00A0;call&#x00A0;psb_geasb(b,desc_a,info,mold=vgmold)
+&#x00A0;&#x00A0;!
+&#x00A0;&#x00A0;!&#x00A0;iterative&#x00A0;method&#x00A0;parameters
+&#x00A0;&#x00A0;!
+&#x00A0;&#x00A0;call&#x00A0;psb_barrier(ctxt)
+&#x00A0;&#x00A0;call&#x00A0;prec%allocate_wrk(info)
+&#x00A0;&#x00A0;t1&#x00A0;=&#x00A0;psb_wtime()
+&#x00A0;&#x00A0;call&#x00A0;psb_krylov(s_choice%kmethd,a,prec,b,x,s_choice%eps,&amp;
+&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&amp;&#x00A0;desc_a,info,itmax=s_choice%itmax,iter=iter,err=err,itrace=s_choice%itrace,&amp;
+&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&amp;&#x00A0;istop=s_choice%istopc,irst=s_choice%irst)
+&#x00A0;&#x00A0;call&#x00A0;prec%deallocate_wrk(info)
+&#x00A0;&#x00A0;call&#x00A0;psb_barrier(ctxt)
+&#x00A0;&#x00A0;tslv&#x00A0;=&#x00A0;psb_wtime()&#x00A0;-&#x00A0;t1
+&#x00A0;&#x00A0;......
+&#x00A0;&#x00A0;call&#x00A0;psb_gpu_exit()
+&#x00A0;&#x00A0;call&#x00A0;psb_exit(ctxt)
+&#x00A0;&#x00A0;stop
+&#x00A0;
+</pre>
+<!--l. 579--><p class="nopar" ></div></div>
+<br /> <div class="caption" 
+><span class="id">Listing 7: </span><span  
+class="content">setup of a GPU-enabled test program part three.</span></div><!--tex4ht:label?: x16-15003r7 -->
+                                                                               
+
+                                                                               
+   </div><hr class="endfloat" />
+<!--l. 587--><p class="indent" >   <span 
+class="cmr-12">It is very important to employ solvers that are suited to the GPU, i.e. solvers that</span>
+<span 
+class="cmr-12">do NOT employ triangular system solve kernels. Solvers that satisfy this constraint</span>
+<span 
+class="cmr-12">include:</span>
+     <ul class="itemize1">
+     <li class="itemize"><span class="obeylines-h"><span class="verb"><span 
+class="cmtt-12">JACOBI</span></span></span>
+     </li>
+     <li class="itemize"><span class="obeylines-h"><span class="verb"><span 
+class="cmtt-12">INVK</span></span></span>
+     </li>
+     <li class="itemize"><span class="obeylines-h"><span class="verb"><span 
+class="cmtt-12">INVT</span></span></span>
+     </li>
+     <li class="itemize"><span class="obeylines-h"><span class="verb"><span 
+class="cmtt-12">AINV</span></span></span></li></ul>
+<!--l. 596--><p class="noindent" ><span 
+class="cmr-12">and their </span><span 
+class="cmmi-12">&#x2113;</span><sub><span 
+class="cmr-8">1</span></sub> <span 
+class="cmr-12">variants.</span>
+                                                                               
+
+                                                                               
+                                                                               
+
+                                                                               
+   <!--l. 1--><div class="crosslinks"><p class="noindent"><span 
+class="cmr-12">[</span><a 
+href="userhtmlsu6.html" ><span 
+class="cmr-12">prev</span></a><span 
+class="cmr-12">] [</span><a 
+href="userhtmlsu6.html#tailuserhtmlsu6.html" ><span 
+class="cmr-12">prev-tail</span></a><span 
+class="cmr-12">] [</span><a 
+href="userhtmlsu7.html" ><span 
+class="cmr-12">front</span></a><span 
+class="cmr-12">] [</span><a 
+href="userhtmlse4.html#userhtmlsu7.html" ><span 
+class="cmr-12">up</span></a><span 
+class="cmr-12">] </span></p></div>
+<!--l. 1--><p class="indent" >   <a 
+ id="tailuserhtmlsu7.html"></a>  
+</body></html> 

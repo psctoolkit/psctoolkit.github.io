@@ -15,9 +15,6 @@ features:
 order: 3
 ---
 
-AMG4PSBLAS library
-===========================
-
 AMG4PSBLAS (*Algebraic MultiGrid Preconditioners Package based on PSBLAS*) is a
 package of parallel algebraic multilevel preconditioners included in the PSCToolkit
 (Parallel Sparse Computation Toolkit) software framework.
@@ -60,9 +57,23 @@ is managed mainly through PSBLAS.
 
 RELEASE
 -------
-Library releases for AGM4PSBLAS are coming...
+Library releases for AGM4PSBLAS.
+
+|Release | Date | Archive                        | Documentation             |
+|--------|------|--------------------------------|---------------------------|
+| 1.0-RC1|      | ![PDF](./img/archiveicon.png)  | ![PDF](./img/pdficon.png) |      
 
 Library releases for MLD2P4 can be downloaded from: [mld2p4/releases](https://github.com/sfilippone/mld2p4-2/releases)
+
+|Release | Date       | Archive                               |
+|--------|------------|---------------------------------------|
+| 2.2.2  |6 May 2020  | [![Archive](./img/archiveicon.png)](https://github.com/sfilippone/mld2p4-2/archive/refs/tags/v2.2.2.tar.gz) |
+
+
+DOCUMENTATION
+-------------
+
+An HTML version of the library documentation can be found on the page [AMG4PSBLAS documentation](https://psctoolkit.github.io/amg4psblasguide/index.html). In any case, the software releases contain a copy of the documentation and a pdf version of it.
 
 TO COMPILE
 ----------
