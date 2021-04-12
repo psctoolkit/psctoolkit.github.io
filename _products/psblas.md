@@ -62,7 +62,7 @@ Library releases for PSBLAS.
 
 |Release | Date | Sources                        | Documentation             |
 |--------|------|--------------------------------|---------------------------|
-| Version 3.7.0| April 12, 2020  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
+| Version 3.7.0| April 12, 2021  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
 
 Library releases can be downloaded from: [psblas3/releases](https://github.com/sfilippone/psblas3/releases)
 

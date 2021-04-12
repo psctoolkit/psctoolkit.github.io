@@ -44,7 +44,7 @@ Library releases for PSBLAS-EXT.
 
 |Release | Date | Sources                        | Documentation             | Works with |
 |--------|------|--------------------------------|---------------------------| -----------|
-| Version 1.3.0-rc1 | April 12, 2020 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasextguide/psblas-ext-1.0.pdf){:target="_blank"} | PSBLAS 3.7.0 |
+| Version 1.3.0-rc1 | April 12, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasextguide/psblas-ext-1.0.pdf){:target="_blank"} | PSBLAS 3.7.0 |
 
 Library releases can be downloaded from: [psblas3-ext/releases](https://github.com/sfilippone/psblas3-ext/releases)
 
