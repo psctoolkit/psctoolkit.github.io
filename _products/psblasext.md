@@ -28,12 +28,14 @@ This package contains:
 PREREQUISITES
 -------------
 
-To build this code you need to have PSBLAS 3.3.0 or later, together
+To build this code you need to have PSBLAS 3.7.0 or later, together
 with its prerequisites.
 
 To make use of the NVIDIA GPU you'll need:
-1. An installation of the CUDA toolkit (version 4.1 or later);
+1. An installation of the CUDA toolkit (version 10);
 2. The SPGPU code from [davidebarbieri/spgpu](https://github.com/davidebarbieri/spgpu)
+
+:point_right: Need to update code for CUDA 11 (where the HYB format has been dropped).
 
 RELEASE
 -------
