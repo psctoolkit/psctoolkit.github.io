@@ -59,9 +59,9 @@ RELEASE
 -------
 Library releases for AGM4PSBLAS.
 
-|Release | Date | Sources                        | Documentation             |
-|--------|------|--------------------------------|---------------------------|
-| Version 1.0-RC1|      | ![ZIP](/img/zipicon.png){:height="24px" width="24px"}  ![Archive](/img/archiveicon.png){:height="24px" width="24px"}  | ![PDF](/img/pdficon.png){:height="24px" width="24px"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  |      
+|Release | Date | Sources                        | Documentation             | Works with |
+|--------|------|--------------------------------|---------------------------| -----------|
+| Version 1.0-rc2 | April 12, 2020 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.0-rc2.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.0-rc2.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/amg4psblas_1.0-guide.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  | PSBLAS 3.7.0, PSBLAS-EXT 1.3.0-rc1 |
 
 Library releases for MLD2P4 can be downloaded from: [mld2p4/releases](https://github.com/sfilippone/mld2p4-2/releases)
 

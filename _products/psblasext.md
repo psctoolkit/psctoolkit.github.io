@@ -13,10 +13,7 @@ features:
 order: 2
 ---
 
-PSBLAS-EXT
-===========================
-
-This is the extenstions plugin for PSBLAS
+This is the **extenstions plugin for PSBLAS**
 
 This package contains:
 1. Extended matrix formats: ELLPACK, Hacked ELLPACK, DIAgonals, Hacked
@@ -40,6 +37,13 @@ To make use of the NVIDIA GPU you'll need:
 
 RELEASE
 -------
+
+Library releases for PSBLAS-EXT.
+
+|Release | Date | Sources                        | Documentation             | Works with |
+|--------|------|--------------------------------|---------------------------| -----------|
+| Version 1.3.0-rc1 | April 12, 2020 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasextguide/psblas-ext-1.0.pdf){:target="_blank"} | PSBLAS 3.7.0 |
+
 Library releases can be downloaded from: [psblas3-ext/releases](https://github.com/sfilippone/psblas3-ext/releases)
 
 INSTALLING

@@ -16,9 +16,20 @@ ratings: 0
 order: 1
 ---
 
-PSBLAS library
-===========================
+The **PSBLAS library**, developed with the aim to facilitate the
+parallelization of computationally intensive scientific applications,
+is designed to address parallel implementation of iterative solvers
+for sparse linear systems through the distributed memory paradigm.  It
+includes routines for multiplying sparse matrices by dense matrices,
+solving block diagonal systems with triangular diagonal entries,
+preprocessing sparse matrices, and contains additional routines for
+dense matrix operations.  The current implementation of PSBLAS
+addresses a distributed memory execution model operating with message
+passing.
 
+The PSBLAS library version 3 is  implemented in the Fortran 2003 programming
+language, with reuse and/or adaptation of  existing Fortran 77 and Fortran 95
+software, plus a handful of C  routines.
 
 UTILITIES
 ---------
@@ -46,7 +57,16 @@ The main reference for the serial sparse BLAS is:
 
 RELEASE
 -------
+
+Library releases for PSBLAS.
+
+|Release | Date | Sources                        | Documentation             |
+|--------|------|--------------------------------|---------------------------|
+| Version 3.7.0| April 12, 2020  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
+
 Library releases can be downloaded from: [psblas3/releases](https://github.com/sfilippone/psblas3/releases)
+
+
 
 INSTALLING
 ----------
