@@ -100,8 +100,7 @@ NOTES
   settings, but the rest of the application needs not be changed.
 
 The AMG4PSBLAS team.
-----------------
-Contributors:
+--------------------
 - [Pasqua D'Ambra](https://www.iac.cnr.it/~dambra/)
 - [Fabio Durastante](https://fdurastante.github.io)
 - Salvatore Filippone
