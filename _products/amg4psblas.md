@@ -13,7 +13,7 @@ features:
     - label: Tested on tens of thousands of cores
       icon: fa-network-wired
     - label: Excellent innovation in the EU Innovation Radar
-      icon: fas-star
+      icon: fa-star
 order: 3
 ---
 
