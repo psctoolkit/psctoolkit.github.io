@@ -12,6 +12,8 @@ features:
       icon: fa-puzzle-piece
     - label: Tested on tens of thousands of cores
       icon: fa-network-wired
+    - label: Excellent innovation in the EU Innovation Radar
+      icon: fas-star
 order: 3
 ---
 
