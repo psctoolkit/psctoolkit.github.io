@@ -80,10 +80,10 @@ prerequisites (see also SERIAL below):
 
 2. A version of the BLAS; if you don't have a specific version for your
    platform you may try ATLAS available from
-   http://math-atlas.sourceforge.net/
+   [http://math-atlas.sourceforge.net/](http://math-atlas.sourceforge.net/)
 
 3. We have had good results with  the METIS library, from
-   http://www-users.cs.umn.edu/~karypis/metis/metis/main.html.
+   [http://www-users.cs.umn.edu/~karypis/metis/metis/main.html](http://www-users.cs.umn.edu/~karypis/metis/metis/main.html).
    This is optional; it is  used in the util and test/fileread
    directories but only if you specify `--with-metis`.
 
@@ -102,7 +102,7 @@ Intel compiler with `FC=ifort` while at the same time having an
 situation is (in our opinion) to use the environment modules package
 (see http://modules.sourceforge.net/), and load the relevant
 variables with (e.g.)
-```
+``` bash
 module load gnu46 openmpi
 ```
 This will delegate to the modules setup to make sure that the version of
@@ -111,7 +111,7 @@ configure script has completed you can always tweak the Make.inc file
 yourself.
 
 After you have Make.inc fixed,  run
-```
+``` bash
 make
 ```
 to  compile the library; go to the test directory and its subdirectories
