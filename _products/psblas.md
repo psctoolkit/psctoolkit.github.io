@@ -120,6 +120,15 @@ install and the libraries will be installed under `/path/lib`, while the
 module files will be installed under `/path/modules`. The regular and
 experimental C interface header files are under `/path/include`.
 
+PACKAGE DISTRIBUTION
+====================
+
+The PSBLAS library is also distributed as a package for the following Linux distributions.
+
+| Distro  | PSBLAS Version | Reference | Maintainer | To install |
+|---------|----------------|-----------|------------|------------|
+|Fedora 32| 3.6.1-5        | [psblas3](https://src.fedoraproject.org/rpms/psblas3) | [sagitter](https://src.fedoraproject.org/user/sagitter) | `yum install psblas3` |
+
 SERIAL
 ------
 Configuring with `--enable-serial` will provide a fake MPI stub library
