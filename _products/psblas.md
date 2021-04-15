@@ -31,13 +31,13 @@ The PSBLAS library version 3 is  implemented in the Fortran 2003 programming
 language, with reuse and/or adaptation of  existing Fortran 77 and Fortran 95
 software, plus a handful of C  routines.
 
-UTILITIES
----------
+## UTILITIES
+
 The `test/util` directory contains some utilities to convert to/from
 Harwell-Boeing and MatrixMarket file formats.
 
 
-DOCUMENTATION
+## DOCUMENTATION
 -------------
 See `docs/psblas-3.7.pdf`; an HTML version of the same document is
 available in `docs/html`, and on this website.
@@ -46,8 +46,8 @@ Please consult the sample programs, especially
 `test/pargen/psb_[sd]_pde[23]d.f90`
 
 
-OTHER SOFTWARE CREDITS
-----------------------
+## OTHER SOFTWARE CREDITS
+
 We originally included a modified implementation of some of the Sparker
 (serial sparse BLAS)  material; this has been completely rewritten, way
 beyond the intention(s) and responsibilities of the original developers.
@@ -57,8 +57,8 @@ The main reference for the serial sparse BLAS is:
 >ACM Trans. Math. Softw., 23(3), 379-401, 1997.
 
 
-RELEASE
--------
+## RELEASE
+
 
 Library releases for PSBLAS.
 
@@ -69,10 +69,8 @@ Library releases for PSBLAS.
 
 Library releases can be downloaded from: [psblas3/releases](https://github.com/sfilippone/psblas3/releases)
 
+## INSTALLING
 
-
-INSTALLING
-----------
 To compile and run our software you will need the following
 prerequisites (see also SERIAL below):
 
@@ -120,8 +118,8 @@ install and the libraries will be installed under `/path/lib`, while the
 module files will be installed under `/path/modules`. The regular and
 experimental C interface header files are under `/path/include`.
 
-PACKAGE DISTRIBUTION
-====================
+### PACKAGE DISTRIBUTION
+
 
 The PSBLAS library is also distributed as a package for the following Linux distributions.
 
@@ -129,27 +127,27 @@ The PSBLAS library is also distributed as a package for the following Linux dist
 |---------|----------------|-----------|------------|------------|
 |Fedora 32| 3.6.1-5        | [psblas3](https://src.fedoraproject.org/rpms/psblas3) | [sagitter](https://src.fedoraproject.org/user/sagitter) | `yum install psblas3` |
 
-SERIAL
-------
+## SERIAL
+
 Configuring with `--enable-serial` will provide a fake MPI stub library
 that enables running in pure serial mode; no MPI installation is needed
 in this case (but note that the fake MPI stubs are only guaranteed to
 cover what we use internally, it's not a complete replacement).
 
-LONG INTEGERS
--------------
+## LONG INTEGERS
+
 We have an experimental flag `--enable-long-integers` that will enable
 having 8-byte integer data, allowing an index space larger than 2G; some
 small cases have been tested but we do not offer full guarantee (yet).
 
 
-TODO
-----
+## TODO
+
 Fix all reamining bugs. Bugs? We dont' have any ! ;-)
 
 
-The PSBLAS team.
----------------
+## The PSBLAS team.
+
 Project lead:
 Salvatore Filippone
 
