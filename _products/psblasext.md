@@ -64,9 +64,11 @@ make install
 *Note:* we have only tested with GNU Fortran compiler.
 
 *Note:* CUDA nvcc typically lags behind the latest  versions of GCC/GNU
-      Fortran; currently nvcc supports GCC 4.8 so this is the preferred choice.
+      Fortran; currently nvcc supports GCC 8 so this is the preferred choice.
       Mixing SPGPU CUDA code  compiled with an older version and the rest with
-      e.g. 4.9 has  worked fine so far: YMMV.  
+      e.g. 4.9 has  worked fine so far: YMMV.
+
+			See the [docs at NVIDIA](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#system-requirements) for further information on the compatibility between GCC and nvcc.  
 
 
 TODO

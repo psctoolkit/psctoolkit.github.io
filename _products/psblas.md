@@ -136,10 +136,24 @@ cover what we use internally, it's not a complete replacement).
 
 ## LONG INTEGERS
 
-We have an experimental flag `--enable-long-integers` that will enable
-having 8-byte integer data, allowing an index space larger than 2G; some
-small cases have been tested but we do not offer full guarantee (yet).
+From version 3.7.0 of PSBLAS, we handle 8-bytes integer data for the global indices
+of distributed matrices, allowing an index space larger than 2G. The default setting
+in the configure uses 4 bytes for **local indices**, and 8 bytes for **global indices**.
+This can be tuned using the following configure flags.
 
+| Configure flag     |                                                                |
+|--------------------|----------------------------------------------------------------|
+|`--with-ipk=<bytes>` | Specify the size in bytes for **local indices** and data, default 4 bytes.|
+|`--with-lpk=<bytes>`| Specify the size in bytes for **global indices** and data, default 8 bytes.|
+
+**Note:** If you wish to compile PSBLAS with the Metis interfaces then you need
+to configure and compile it in a consistent way with the choice made for `--with-lpk`.
+This can be achieved by setting the defines in the `metis.h` library, e.g, to use
+8 bytes integers and 4 bytes floats
+```c
+#define IDXTYPEWIDTH 64
+#define REALTYPEWIDTH 32
+```
 
 ## TODO
 
