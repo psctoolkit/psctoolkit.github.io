@@ -6,6 +6,8 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- AMG4PSBLAS Linear Algebra Package Brings ALYA One Step Closer to Exascale -
+May 17-19, 2021 - 32nd Parallel Computational Fluid Dynamics Conference (ParCFD21)
 - (Sparse) Linear Algebra at the Extreme Scale - Giornata giovani ricercatori IAC-CNR  - 10/12/2020 - [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-iaccnr.pdf) [📺](https://youtu.be/vLVpTfTM0fg?t=6567)
 - (Sparse) Linear Algebra at the Extreme Scale - NumPi Seminar - 1/12/2020 - [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-pisa.pdf) [📺](https://hausdorff.dm.unipi.it/playback/presentation/2.0/playback.html?meetingId=17ca0638f7f10736d9763c7b4725704981e43265-1606834059719)
 
