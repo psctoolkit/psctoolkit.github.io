@@ -14,7 +14,7 @@ features:
       icon: fa-tachometer-alt
     - label: Excellent innovation in the EU Innovation Radar
       icon: fa-star
-order: 3
+order: 4
 ---
 
 This is the complete set of libraries that goes under the name PSCToolkit. To have the latest aligned version you can use the [psctoolkit repository](https://github.com/psctoolkit/psctoolkit).
