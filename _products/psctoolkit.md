@@ -58,4 +58,17 @@ The possible installation order are:
 2. PSBLAS -> AMG4PSBLAS -> PSBLAS-EXT -> SUNDIALS
 3. PSBLAS -> AMG4PSBLAS
 
+
 Each of the libraries contains its own installation instructions. See information on [https://psctoolkit.github.io/libraries/](https://psctoolkit.github.io/libraries/) for each of them.
+
+### Docker container
+
+We have also available an *experimental* Docker container containing the installation of the core libraries PSBLAS, PSBLAS-EXT, and AMG4PSBLAS (without GPU support). Such container is a unit of software packaging up the source code, the compiled version of the library, and all the relevant dependencies. The idea is to have a version of the PSCToolkit that can run quickly and reliably from one computing environment to another.
+
+The container is available on [dockerhub](https://hub.docker.com/r/psctoolkit/psctoolkit). If you have a version of Docker installed on your
+machine, you can use the image by doing
+```bash
+docker pull psctoolkit/psctoolkit
+```
+The library is installed under `/usr/local/psctoolkit`. The container is built upon the latest long term release of Ubuntu and uses the packaged versions of the software to fulfill the PSCToolkit prerequisites and
+the auxiliary libraries.
