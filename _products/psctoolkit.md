@@ -6,11 +6,11 @@ product_code: PSCTOOLKIT
 layout: product
 image: /img/psctoolkit.png
 features:
-    - label: PSBLAS: Parallel Sparse BLAS
+    - label: PSBLAS Parallel Sparse BLAS
       icon: fa-code
-    - label: PSBLAS-EXT: GPU Plugin for Parallel Sparse BLAS
+    - label: PSBLAS-EXT GPU Plugin for Parallel Sparse BLAS
       icon: fa-puzzle-piece
-    - label: AMG4PSBLAS: Preconditioners for PSBLAS
+    - label: AMG4PSBLAS Preconditioners for PSBLAS
       icon: fa-tachometer-alt
     - label: Excellent innovation in the EU Innovation Radar
       icon: fa-star
