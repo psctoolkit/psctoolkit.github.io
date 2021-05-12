@@ -48,7 +48,7 @@ or to execute ```git pull``` inside each of the folders to synchronize to the la
 
 The possible installation order are:
 
-1) PSBLAS -> PSBLAS-EXT -> AMG4PSBLAS -> SUNDIALS
-2) PSBLAS -> AMG4PSBLAS
+1. PSBLAS -> PSBLAS-EXT -> AMG4PSBLAS -> SUNDIALS
+2. PSBLAS -> AMG4PSBLAS
 
 Each of the libraries contains its own installation instructions. See information on [https://psctoolkit.github.io/libraries/](https://psctoolkit.github.io/libraries/) for each of them.
