@@ -44,11 +44,11 @@ or to execute ```git pull``` inside each of the folders to synchronize to the la
 
 **Warning:** the various submodules point to mutually compatible versions of the library. Branch switching and pull operations could damage compatibility, especially moving into development branches. The easiest way is to download the latest **stable release**. This contains all versions of the packages that can be compiled together.
 
-| PSCToolkit Version | Libraries        |    |
-|--------------------|------------------|----|
+| PSCToolkit Stable Version | Libraries        |                    |
+|---------------------------|------------------|--------------------|
 | Version 1.0.0      | PSBLAS 3.7.0.1   | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.tar.gz)    |
-|                    | Version 1.3.0-rc1| [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.tar.gz)    |
 |                    | AMG4PSBLAS 1.0.0 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.tar.gz)   |
+|                    | PSBLAS-EXT 1.3.0 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.tar.gz)    |
 
 ## How to install
 
