@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Hybrid Preconditioning Richards Equation for Variably Saturated Flow - May 18, 2021 - SIAM Applied Linear Algebra 2021
 - AMG4PSBLAS Linear Algebra Package Brings ALYA One Step Closer to Exascale -
 May 17-19, 2021 - 32nd Parallel Computational Fluid Dynamics Conference (ParCFD21)
 - Towards EXtreme scale Technologies and Accelerators for euROhpc
