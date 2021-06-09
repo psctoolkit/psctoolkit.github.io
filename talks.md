@@ -6,6 +6,8 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Scalable preconditioners for Computational Science
+at extreme scale - June 9, 2021 - 13th International Conference on Large-Scale Scientific Computations, Sozopol - [📄](https://psctoolkit.github.io/talks/EoCoEII-LSSC2021.pdf)
 - Hybrid Preconditioning Richards Equation for Variably Saturated Flow - May 18, 2021 - SIAM Applied Linear Algebra 2021
 - AMG4PSBLAS Linear Algebra Package Brings ALYA One Step Closer to Exascale -
 May 17-19, 2021 - 32nd Parallel Computational Fluid Dynamics Conference (ParCFD21)
