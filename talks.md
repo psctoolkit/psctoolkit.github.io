@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Solving Richards Equations for Extreme Scale Applications in Hydrology - June 22, 2021 - SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS21)
 - Scalable preconditioners for Computational Science
 at extreme scale - June 9, 2021 - 13th International Conference on Large-Scale Scientific Computations, Sozopol - [📄](https://psctoolkit.github.io/talks/EoCoEII-LSSC2021.pdf)
 - Hybrid Preconditioning Richards Equation for Variably Saturated Flow - May 18, 2021 - SIAM Applied Linear Algebra 2021
