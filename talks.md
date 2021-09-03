@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Scalable AMG Preconditioners for Computational Science at Extreme Scale - September 3, 2021 - SIMAI Bi-annual congress 
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scales on Hybrid Architectures - July 7, 2021 - Platform for Advanced Scientific Computing (PASC) Conference (2021) - [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-PASC2021.pdf)
 - Solving Richards Equations for Extreme Scale Applications in Hydrology - June 22, 2021 - SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS21)
 - Scalable preconditioners for Computational Science
