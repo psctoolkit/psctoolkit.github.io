@@ -20,6 +20,7 @@ This package was previously known as MLD2P4, these are the publication relative 
 ## Methodologies, Theoretical and Technical Challenges
 A part from the papers describing the implementation and the features of the libraries, a great deal of work is dedicated to answering theoretical questions, develop new algorithms, and solve technical and technological challenges. We collect here works related to these tasks.
 
+1. D'Ambra Pasqua; Durastante, Fabio; Ferdous, S.M.; Filippone, Salvatore; Halappanavar, Mahantesh; Pothen, Alex. AMG Preconditoners based on parallel hybrid coarsening exploiting multi-objective graph matching (2021). *Submitted*.
 1. Bernaschi, Massimo; Pasqua D’Ambra; Dario Pasquini. BootCMatchG: An adaptive Algebraic MultiGrid linear solver for GPUs. Software Impacts (2020): 100041.
 2. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore.  On the quality of matching-based aggregates for algebraic coarsening of SPD matrices in AMG. Preprint [arXiv:2001.09969](https://arxiv.org/abs/2001.09969)
 3. Abdullahi Hassan, Ambra; Cardellini, Valeria;  D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. "Efficient algebraic multigrid preconditioners on clusters of GPUs." Parallel Processing Letters 29.01 (2019): 1950001.
