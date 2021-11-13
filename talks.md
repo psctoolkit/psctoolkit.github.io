@@ -6,7 +6,8 @@ show_sidebar: false
 ---
 
 **Seminars:**
-- Scalable AMG Preconditioners for Computational Science at Extreme Scale - September 3, 2021 - SIMAI Bi-annual congress 
+- Scalable AMG Preconditioners for Computational Science at Extreme Scale - September 3, 2021 - SIMAI Bi-annual congress
+- Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scales on Hybrid Architectures (EuroCC seminar series) - July, 2021 - CaSToRC: HPC National Competence Center in Cyprus - [📺](https://www.youtube.com/watch?v=OM4IydbNSro)
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scales on Hybrid Architectures - July 7, 2021 - Platform for Advanced Scientific Computing (PASC) Conference (2021) - [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-PASC2021.pdf)
 - Solving Richards Equations for Extreme Scale Applications in Hydrology - June 22, 2021 - SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS21)
 - Scalable preconditioners for Computational Science
@@ -24,3 +25,6 @@ hw/Sw Supercomputing Applications for exascale - 05/05/2021 - [📄](https://psc
 - PSBLAS 3.7 Sparse Computation & Iterative Solvers for HPC - 24/02/2021 - [📄](https://psctoolkit.github.io/talks/tutorialPSBLAS_eocoeexa2pro.pdf) [📺](https://www.youtube.com/watch?v=gTWYHzG606Q)
 - MLD2P4 a Package of Parallel Algebraic MultiGrid Preconditioners for Scalable Linear Solvers - 24/02/2020 - [📄](https://psctoolkit.github.io/talks/tutorialMLD2P4_eocoe2020.pdf) [📺](https://youtu.be/Hp9LLeRuFm0)
 - PSBLAS 3.6 Sparse Computation & Iterative Solvers for HPC - 20/01/2020 - [📄](https://psctoolkit.github.io/talks/tutorialPSBLAS_eocoe2020.pdf) [📺](https://youtu.be/4CHI76zFoPc)
+
+**Posters:**
+- Solving Richards equation: theoretical challenges and parallel implementation - CIRM Luminy, November 8-12, 2021 - Numerical Methods and Scientific Computing (NMSC21) - [📄](https://psctoolkit.github.io/talks/richardsNMSC2021.pdf)
