@@ -76,7 +76,7 @@ Library releases for MLD2P4 can be downloaded from: [mld2p4/releases](https://gi
 DOCUMENTATION
 -------------
 
-An HTML version of the library documentation can be found on the page [AMG4PSBLAS documentation](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}. In any case, the software releases contain a copy of the documentation and a pdf version of it.
+An HTML version of the library documentation can be found on the page [AMG4PSBLAS documentation](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_ blank"}. In any case, the software releases contain a copy of the documentation and a pdf version of it.
 
 TO COMPILE
 ----------
@@ -101,6 +101,18 @@ NOTES
   to be used with the PSBLAS Krylov solvers; so in an existing program
   you need to modify the type of the preconditioner object and its
   settings, but the rest of the application needs not be changed.
+
+EoCoE - Software as service portal
+----------------------------------
+
+In the European project "Energy oriented Center of Excellence: toward 
+exascale for energy" we made available a _software as service_ portal:
+[https://eocoe.psnc.pl/](https://eocoe.psnc.pl/). This permits to test several
+cutting-edge computational methods for accelerating the transition to
+the production, storage and management of clean, decarbonized energy.
+Among them you have the possibility of running PSBLAS+AMG4PSBLAS on some
+test problems to become familiar with using the software.
+
 
 The AMG4PSBLAS team.
 --------------------
