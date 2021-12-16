@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Scalability Results for the Solution of the Richards Equation as in ParFlow - EoCoE-II Consortium Meeting, December 13-15, 2021 - [📄](https://psctoolkit.github.io/talks/EoCoE-F2F-hybridrichards.pdf)
 - Scalable AMG Preconditioners for Computational Science at Extreme Scale - September 3, 2021 - SIMAI Bi-annual congress
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scales on Hybrid Architectures (EuroCC seminar series) - July, 2021 - CaSToRC: HPC National Competence Center in Cyprus - [📺](https://www.youtube.com/watch?v=OM4IydbNSro)
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scales on Hybrid Architectures - July 7, 2021 - Platform for Advanced Scientific Computing (PASC) Conference (2021) - [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-PASC2021.pdf)
