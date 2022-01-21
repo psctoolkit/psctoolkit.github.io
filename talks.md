@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+-  PSCToolkit: pushing linear algebra towards the exascale. Numerical Analysis Seminar, Lunds Universitet, Matematikcentrum. Sweden. January 19, 2022.
 - Scalability Results for the Solution of the Richards Equation as in ParFlow - EoCoE-II Consortium Meeting, December 13-15, 2021 - [📄](https://psctoolkit.github.io/talks/EoCoE-F2F-hybridrichards.pdf)
 - Scalable AMG Preconditioners for Computational Science at Extreme Scale - September 3, 2021 - SIMAI Bi-annual congress
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scales on Hybrid Architectures (EuroCC seminar series) - July, 2021 - CaSToRC: HPC National Competence Center in Cyprus - [📺](https://www.youtube.com/watch?v=OM4IydbNSro)
