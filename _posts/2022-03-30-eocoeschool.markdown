@@ -14,7 +14,7 @@ canonical_url: https://psctoolkit.github.io/training/2022/03/30/eocoeschool.html
 ---
 
 How to exploit HPC and BigData for the **energy** transition?
-Let's register to the EoCoE school, online 26-28 April 2022.
+Register to the EoCoE school, online 26-28 April 2022.
 
 It is a program of Energy Oriented Center of Excellence that offers collaborative online learning opportunities with the theme "toward exascale for energy".
 At the crossroads of the energy and digital revolutions, EoCoE develops and applies cutting-edge computational methods in its mission to accelerate the transition to the production, storage and management of clean, decarbonized energy.
