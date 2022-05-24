@@ -63,6 +63,7 @@ Library releases for AGM4PSBLAS.
 
 |Release | Date | Sources                        | Documentation             | Works with |
 |--------|------|--------------------------------|---------------------------| -----------|
+| Version 1.1.0 | May 24, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.1.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.1.0.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/amg4psblas_1.0-guide.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  | PSBLAS 3.8.0, PSBLAS-EXT 1.3.0-rc1 |
 | Version 1.0 | May 11, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/V1.0.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/V1.0.0.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/amg4psblas_1.0-guide.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  | PSBLAS 3.7.0.1, PSBLAS-EXT 1.3.0-rc1 |
 | Version 1.0-rc2 | April 12, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.0-rc2.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.0-rc2.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/amg4psblas_1.0-rc-guide.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/index.html){:target="_blank"}  | PSBLAS 3.7.0, PSBLAS-EXT 1.3.0-rc1 |
 
@@ -105,7 +106,7 @@ NOTES
 EoCoE - Software as service portal
 ----------------------------------
 
-In the European project "Energy oriented Center of Excellence: toward 
+In the European project "Energy oriented Center of Excellence: toward
 exascale for energy" we made available a _software as service_ portal:
 [https://eocoe.psnc.pl/](https://eocoe.psnc.pl/). This permits to test several
 cutting-edge computational methods for accelerating the transition to
