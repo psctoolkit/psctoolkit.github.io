@@ -6,6 +6,13 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Parallel Sparse Computation Toolkit: Towards Exascale Linear Algebra, LN HPCKTT General Assembly and 3rd Italian Workshop on HPC, Turin, Italy. September 2022. [📄](https://psctoolkit.github.io/talks/torinohpc.pdf)
+- Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scale, Lawrence Berkeley Laboratory, USA. September 2022.
+- On the Convergence of Two-Level AMG with aggregation-based coarsening relying on
+weighted matching. Householder Symposium XXI, Selva di Fasano, Italy. June 2022.
+- Spectral insight into the solution of
+Richards equation at very large scale. ALAMA 2022-ALN2gg, Alcalà de Henares, Spain. June 2022.
+- AMG Preconditioners based on parallel hybrid coarsening exploiting multi-objective graph matching. Due Giorni di Algebra Lineare Numerica e Applicazioni, Naples, Italy. February 2022.
 -  PSCToolkit: pushing linear algebra towards the exascale. Numerical Analysis Seminar, Lunds Universitet, Matematikcentrum. Sweden. January 19, 2022.
 - Scalability Results for the Solution of the Richards Equation as in ParFlow - EoCoE-II Consortium Meeting, December 13-15, 2021 - [📄](https://psctoolkit.github.io/talks/EoCoE-F2F-hybridrichards.pdf)
 - Scalable AMG Preconditioners for Computational Science at Extreme Scale - September 3, 2021 - SIMAI Bi-annual congress
