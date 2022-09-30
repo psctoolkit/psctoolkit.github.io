@@ -6,7 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
-- 
+- Scalability Results for the Solution of the Richards Equation. GIMC SIMAI Young, Pavia, 29-30 September, 2022. [📄](https://psctoolkit.github.io/talks/Richards-GIMCSIMAI.pdf)
 - Parallel Sparse Computation Toolkit: Towards Exascale Linear Algebra, LN HPCKTT General Assembly and 3rd Italian Workshop on HPC, Turin, Italy. September 2022. [📄](https://psctoolkit.github.io/talks/torinohpc.pdf)
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scale, Lawrence Berkeley Laboratory, USA. September, 6th, 2022. [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-berkeley.pdf)
 - On the Convergence of Two-Level AMG with aggregation-based coarsening relying on
