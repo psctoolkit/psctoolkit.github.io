@@ -22,7 +22,7 @@ A part from the papers describing the implementation and the features of the lib
 
 1. D'Ambra Pasqua; Durastante, Fabio; Ferdous, S.M.; Filippone, Salvatore; Halappanavar, Mahantesh; Pothen, Alex. AMG Preconditoners based on parallel hybrid coarsening exploiting multi-objective graph matching (2021). *Submitted*.
 1. Bernaschi, Massimo; Pasqua D’Ambra; Dario Pasquini. BootCMatchG: An adaptive Algebraic MultiGrid linear solver for GPUs. Software Impacts (2020): 100041.
-2. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore.  On the quality of matching-based aggregates for algebraic coarsening of SPD matrices in AMG. Preprint [arXiv:2001.09969](https://arxiv.org/abs/2001.09969)
+2. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore; Zikatanov Ludmil. Automatic coarsening in Algebraic Multigrid utilizing quality measures for matching-based aggregations . Preprint [arXiv:2001.09969](https://arxiv.org/abs/2001.09969)
 3. Abdullahi Hassan, Ambra; Cardellini, Valeria;  D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. "Efficient algebraic multigrid preconditioners on clusters of GPUs." Parallel Processing Letters 29.01 (2019): 1950001.
 4. Filippone, Salvatore; Cardellini, Valeria; Barbieri, Davide; Fanfarillo, Alessandro. Sparse matrix-vector multiplication on GPGPUs. ACM Trans. Math. Software 43 (2017), no. 4, Art. 30.
 5. D'Ambra, Pasqua; Filippone, Salvatore; Vassilevski, Panayot S. BootCMatch: a software package for bootstrap AMG based on graph weighted matching. ACM Trans. Math. Software 44 (2018), no. 4, Art. 39, 25 pp.
@@ -34,7 +34,7 @@ A part from the papers describing the implementation and the features of the lib
 ## psctoolkit in the field
 This is a list of works that used the libraries from psctoolkit, if you have a work in which you use one of the libraries please [let us know](mailto:eocoe@na.iac.cnr.it?subject=[psctoolkit]%20New%20application)
 
-1. Bertaccini, Daniele; D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore. Preconditioning Richards Equations: spectral analysis and parallel solution at very large scale. Preprint [arXiv:2112.05051](https://arxiv.org/abs/2112.05051). (2021). *Submitted*.
+1. Bertaccini, Daniele; D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore. Why diffusion-based preconditioning of Richards equation works: spectral analysis and computational experiments at very large scale. Preprint [arXiv:2112.05051](https://arxiv.org/abs/2112.05051). (2021). *Submitted*.
 1. D'Ambra, Pasqua; Filippone, Salvatore. A parallel generalized relaxation method for high-performance image segmentation on GPUs. J. Comput. Appl. Math. 293 (2016), 35--44.
 2. Aprovitola, Andrea; D'Ambra, Pasqua; Denaro, Filippo M.; di Serafino, Daniela; Filippone, Salvatore. SParC-LES: enabling large eddy simulations with parallel sparse matrix computation tools. Comput. Math. Appl. 70 (2015), no. 11, 2688--2700.
 2. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. Performance analysis of parallel Schwarz preconditioners in the LES of turbulent channel flows. Comput. Math. Appl. 65 (2013), no. 3, 352--361.
