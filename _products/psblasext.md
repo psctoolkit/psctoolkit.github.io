@@ -28,14 +28,12 @@ This package contains:
 PREREQUISITES
 -------------
 
-To build this code you need to have PSBLAS 3.7.0 or later, together
+To build this code you need to have PSBLAS 3.8.0-2 or later, together
 with its prerequisites.
 
 To make use of the NVIDIA GPU you'll need:
-1. An installation of the CUDA toolkit (version 10);
+1. An installation of the CUDA toolkit (version $ \geq 10$);
 2. The SPGPU code from [davidebarbieri/spgpu](https://github.com/davidebarbieri/spgpu)
-
-:point_right: Need to update code for CUDA 11 (where the HYB format has been dropped).
 
 RELEASE
 -------
@@ -44,7 +42,7 @@ Library releases for PSBLAS-EXT.
 
 |Release | Date | Sources                        | Documentation             | Works with |
 |--------|------|--------------------------------|---------------------------| -----------|
-| Version 1.3.1 | Novembre 24, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/v1.3.1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/v1.3.1.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/raw/maint-1.3/docs/psblas-ext-1.3.pdf){:target="_blank"} | PSBLAS 3.8.0-2 | 
+| Version 1.3.1 | Novembre 24, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/v1.3.1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/v1.3.1.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/raw/maint-1.3/docs/psblas-ext-1.3.pdf){:target="_blank"} | PSBLAS 3.8.0-2 |
 | Version 1.3.0 | May 12, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/raw/maint-1.3.0/docs/psblas-ext-1.0.pdf){:target="_blank"} | PSBLAS 3.7.0.1 |
 | Version 1.3.0-rc1 | April 12, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0-rc1.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasextguide/psblas-ext-1.0.pdf){:target="_blank"} | PSBLAS 3.7.0 |
 
