@@ -129,7 +129,7 @@ The PSBLAS library is also distributed as a package for the following Linux dist
 
 | Distro  | PSBLAS Version | Reference | Maintainer | To install |
 |---------|----------------|-----------|------------|------------|
-|Fedora | 3.8.02            | [psblas3](https://src.fedoraproject.org/rpms/psblas3) | [sagitter](https://fedoraproject.org/wiki/User:Sagitter) | `dnf install psblas3-serial`  <br> `dnf install psblas3-openmpi` <br> `dnf install psblas3-mpich `<br> `dnf install psblas3-debugsource` <br> `dnf install psblas3-debuginfo` <br> **Note:** For the *mpich* and *openmpi* versions also the `-debuginfo` and `-devel` are available.|
+|Fedora | 3.8.0-2            | [psblas3](https://src.fedoraproject.org/rpms/psblas3) | [sagitter](https://fedoraproject.org/wiki/User:Sagitter) | `dnf install psblas3-serial`  <br> `dnf install psblas3-openmpi` <br> `dnf install psblas3-mpich `<br> `dnf install psblas3-debugsource` <br> `dnf install psblas3-debuginfo` <br> **Note:** For the *mpich* and *openmpi* versions also the `-debuginfo` and `-devel` are available.|
 
 ## SERIAL
 
