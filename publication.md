@@ -32,7 +32,7 @@ A part from the papers describing the implementation and the features of the lib
 9. D’Ambra, Pasqua; Vassilevski, Panayot, S. Adaptive AMG with Coarsening based on Compatible Weighted Matching, Computing and Visualization in Science, Vol. 16, 2013, pp. 59-76.
 
 ## psctoolkit in the field
-This is a list of works that used the libraries from psctoolkit, if you have a work in which you use one of the libraries please [let us know](mailto:eocoe@na.iac.cnr.it?subject=[psctoolkit]%20New%20application)
+This is a list of works that used the libraries from psctoolkit, if you have a work in which you use one of the libraries please [let us know](mailto:psctoolkit@na.iac.cnr.it?subject=[psctoolkit]%20New%20application)
 
 1. Bertaccini, Daniele; D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore. Why diffusion-based preconditioning of Richards equation works: spectral analysis and computational experiments at very large scale. Preprint [arXiv:2112.05051](https://arxiv.org/abs/2112.05051). (2021). *Submitted*.
 1. D'Ambra, Pasqua; Filippone, Salvatore. A parallel generalized relaxation method for high-performance image segmentation on GPUs. J. Comput. Appl. Math. 293 (2016), 35--44.
