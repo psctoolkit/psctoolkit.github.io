@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- PSCTOOLKIT: Parallel Sparse Computation Toolkit. Math Product (M2P): Emerging Technologies in Computational Science for Industry, Sustainability and Innovation. May 29 - June 1, 2023. [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_TAORMINA.pdf)
 - AMG Preconditioners based on Parallel Hybrid Coarsening and Bi-objective Matching. 31st Euromicro International Conference on PDP. March 1-3, 2023. [📄](https://psctoolkit.github.io/talks/pdp-2023.pdf)
 - Node-level eciency and scalability issues in iterative sparse linear solvers at scale. 31st Euromicro International Conference on PDP. March 1-3, 2023. [📄](https://psctoolkit.github.io/talks/pdp2023-dambra.pdf)
 - Scalability Results for the Solution of the Richards Equation. GIMC SIMAI Young, Pavia, 29-30 September, 2022. [📄](https://psctoolkit.github.io/talks/Richards-GIMCSIMAI.pdf)
