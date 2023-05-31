@@ -5,7 +5,7 @@
   sponsors:
     - name: TEXTAROSSA
       profile: https://textarossa.eu/
-    - name: "FutureHPC & BigData" of the Italian Research Center on High-Performance Computing, Big Data and Quantum Computing (ICSC) funded by MUR
+    - name: &quot;FutureHPC &amp; BigData &quot; of the Italian Research Center on High-Performance Computing, Big Data and Quantum Computing (ICSC) funded by MUR
       profile: https://pnrr.unipi.it/progetti-unipi/centri-nazionali-2/
 - tier_name: Past Funding
   description: |-
