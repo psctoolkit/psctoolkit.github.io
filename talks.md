@@ -6,6 +6,8 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- PSCTOOLKIT: Parallel Sparse Computation Toolkit. 10th International Congress on
+Industrial and Applied Mathematics. August 20-25, 2023. Waseda University, Tokyo, Japan [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_ICIAM2023.pdf)
 - PSCTOOLKIT: Parallel Sparse Computation Toolkit. Math Product (M2P): Emerging Technologies in Computational Science for Industry, Sustainability and Innovation. May 29 - June 1, 2023. [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_TAORMINA.pdf)
 - AMG Preconditioners based on Parallel Hybrid Coarsening and Bi-objective Matching. 31st Euromicro International Conference on PDP. March 1-3, 2023. [📄](https://psctoolkit.github.io/talks/pdp-2023.pdf)
 - Node-level eciency and scalability issues in iterative sparse linear solvers at scale. 31st Euromicro International Conference on PDP. March 1-3, 2023. [📄](https://psctoolkit.github.io/talks/pdp2023-dambra.pdf)
