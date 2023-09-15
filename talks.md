@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- AMG preconditioners towards exascale. HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, September 14th-15th Padova, Italy 2023.
 - PSCTOOLKIT: Parallel Sparse Computation Toolkit. 10th International Congress on
 Industrial and Applied Mathematics. August 20-25, 2023. Waseda University, Tokyo, Japan [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_ICIAM2023.pdf)
 - PSCTOOLKIT: Parallel Sparse Computation Toolkit. Math Product (M2P): Emerging Technologies in Computational Science for Industry, Sustainability and Innovation. May 29 - June 1, 2023. [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_TAORMINA.pdf)
