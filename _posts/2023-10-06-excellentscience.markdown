@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PSCTOOLKIT - a sparse linear algebra solutions"
-date:   2023-10-06 10:00:00
+date:   2023-10-06 06:00:00
 categories: news
 description: "Excellent Science INNOVATION"
 image: https://psctoolkit.github.io/img/news.png
