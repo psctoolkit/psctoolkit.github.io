@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "AMG4PSBLAS Version 1.0 - RC1"
-date:   2021-04-13 12:00:00
+title:  "PSCTOOLKIT - a sparse linear algebra solutions"
+date:   2023-10-06 10:00:00
 categories: news
-description: "PSCTOOLKIT - a sparse linear algebra solutions"
+description: "Excellent Science INNOVATION"
 image: https://psctoolkit.github.io/img/news.png
 published: true
 author: F. Durastante
