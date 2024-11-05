@@ -3,8 +3,9 @@
   description: |-
     These are the projects currently financing the development of the PSCToolkit libraries
   sponsors:
-    - name: TEXTAROSSA
-      profile: https://textarossa.eu/
+    - name: EoCoE-III
+      profile: https://www.eocoe.eu/
+    - name: Deal.ii-X
     - name: Future and HPC of the Italian Research Center on High-Performance Computing, Big Data and Quantum Computing (ICSC) funded by MUR
       profile: https://pnrr.unipi.it/progetti-unipi/centri-nazionali-2/
 - tier_name: Past Funding
@@ -16,3 +17,5 @@
       profile: https://www.eocoe.eu/
     - name: Istituto Nazionale di Alta Matematica - Gruppo Nazionale Calcolo Scientifico
       profile: https://www.altamatematica.it/gncs/
+    - name: TEXTAROSSA
+      profile: https://textarossa.eu/
