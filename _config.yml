@@ -1,4 +1,4 @@
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
 title: Parallel Sparse Computation Toolkit
 email: eocoe@na.iac.cnr.it
 description: Scientific Computing towards the Exascale
