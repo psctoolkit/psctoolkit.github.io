@@ -6,6 +6,8 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Highly Parallel Smoothers for PSCToolkit on GPUs, SIAM Applied Linear Algebra, Paris, May 13, France, 2024.  [📄](https://psctoolkit.github.io/talks/siam2024-dambra.pdf)
+- Algebraic Multigrid Methods for Simulation of Single Phase Flow in Fractured Media, SIAM Applied Linear Algebra, Paris, May 13, France, 2024.  [📄](https://psctoolkit.github.io/talks/AMGFracture.pdf)
 - AMG preconditioners towards exascale. HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, September 14th-15th Padova, Italy 2023
 - PSCTOOLKIT: Parallel Sparse Computation Toolkit. 10th International Congress on
 Industrial and Applied Mathematics. August 20-25, 2023. Waseda University, Tokyo, Japan [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_ICIAM2023.pdf)
