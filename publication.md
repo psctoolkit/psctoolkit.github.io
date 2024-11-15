@@ -36,7 +36,8 @@ A part from the papers describing the implementation and the features of the lib
 ## psctoolkit in the field
 This is a list of works that used the libraries from psctoolkit, if you have a work in which you use one of the libraries please [let us know](mailto:psctoolkit@na.iac.cnr.it?subject=[psctoolkit]%20New%20application)
 
-1.  Bertaccini, D, D'Ambra, P, Durastante, F, Filippone, S. Why diffusion-based preconditioning of Richards equation works: Spectral analysis and computational experiments at very large scale. Numer Linear Algebra Appl. 2023;e2523. ![Open Access](https://doi.org/10.1002/nla.2523)
+1. Owen, H., Lehmkuhl, O., D’Ambra, P., Durastante, F., & Filippone, S. (2024). Alya toward exascale: algorithmic scalability using PSCToolkit. The Journal of Supercomputing, 1-24.
+1. Bertaccini, D, D'Ambra, P, Durastante, F, Filippone, S. Why diffusion-based preconditioning of Richards equation works: Spectral analysis and computational experiments at very large scale. Numer Linear Algebra Appl. 2023;e2523. ![Open Access](https://doi.org/10.1002/nla.2523)
 1. D'Ambra, Pasqua; Filippone, Salvatore. A parallel generalized relaxation method for high-performance image segmentation on GPUs. J. Comput. Appl. Math. 293 (2016), 35--44.
 2. Aprovitola, Andrea; D'Ambra, Pasqua; Denaro, Filippo M.; di Serafino, Daniela; Filippone, Salvatore. SParC-LES: enabling large eddy simulations with parallel sparse matrix computation tools. Comput. Math. Appl. 70 (2015), no. 11, 2688--2700.
 2. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. Performance analysis of parallel Schwarz preconditioners in the LES of turbulent channel flows. Comput. Math. Appl. 65 (2013), no. 3, 352--361.
