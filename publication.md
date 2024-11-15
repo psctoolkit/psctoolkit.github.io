@@ -11,6 +11,7 @@ Publications describing the structure of the PSBLAS: Parallel Sparse BLAS, the l
 
 ## AMG4PSBLAS
 This package was previously known as MLD2P4, these are the publication relative to its architecture and the preconditioner that implements.
+1. D'Ambra, Pasqua, Fabio Durastante, Salvatore Filippone, Stefano Massei, Stephen Thomas. " Optimal Polynomial Smoothers for Parallel AMG" (2024) *submitted* [arXiv:2407.09848](https://arxiv.org/abs/2407.09848)
 1. D'Ambra, Pasqua, Fabio Durastante, and Salvatore Filippone. "AMG preconditioners for linear solvers towards extreme scale." SIAM Journal on Scientific Computing 43(5), S679–S703.
 2. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. MLD2P4: a package of parallel algebraic multilevel domain decomposition preconditioners in Fortran 95. ACM Trans. Math. Software 37 (2010), no. 3, Art. 30, 23 pp.
 3. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. On the development of PSBLAS-based parallel two-level Schwarz preconditioners. Appl. Numer. Math. 57 (2007), no. 11-12, 1181--1196.
@@ -20,6 +21,7 @@ This package was previously known as MLD2P4, these are the publication relative 
 ## Methodologies, Theoretical and Technical Challenges
 A part from the papers describing the implementation and the features of the libraries, a great deal of work is dedicated to answering theoretical questions, develop new algorithms, and solve technical and technological challenges. We collect here works related to these tasks.
 
+1. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore; PSCToolkit: solving sparse linear systems with a large number of GPUs. (2024) *submitted* [arXiv:2406.19754](https://arxiv.org/abs/2406.19754) 
 1. D'Ambra Pasqua; Durastante, Fabio; Ferdous, S.M.; Filippone, Salvatore; Halappanavar, Mahantesh; Pothen, Alex. AMG Preconditioners based on Parallel Hybrid Coarsening and Multi-objective Graph Matching. (2023). 31st Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP), Naples, Italy, 2023, pp. 59-67.
 1. Bernaschi, Massimo; Pasqua D’Ambra; Dario Pasquini. BootCMatchG: An adaptive Algebraic MultiGrid linear solver for GPUs. Software Impacts (2020): 100041.
 2. D'Ambra, Pasqua; Durastante, Fabio; Filippone, Salvatore; Zikatanov Ludmil. Automatic coarsening in Algebraic Multigrid utilizing quality measures for matching-based aggregations. Comput. Math. Appl. 144 (2023), 290-305. 

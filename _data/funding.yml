@@ -5,7 +5,8 @@
   sponsors:
     - name: EoCoE-III
       profile: https://www.eocoe.eu/
-    - name: Deal.ii-X
+    - name: Dealii-X
+      profile: https://dealii-x.github.io/
     - name: Future and HPC of the Italian Research Center on High-Performance Computing, Big Data and Quantum Computing (ICSC) funded by MUR
       profile: https://pnrr.unipi.it/progetti-unipi/centri-nazionali-2/
 - tier_name: Past Funding
