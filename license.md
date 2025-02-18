@@ -14,7 +14,7 @@ Under the BSD-3 Clause License, users are granted the following permissions:
 
 - **Use, modify, and distribute** the software freely.  
 - **Incorporate it into proprietary or open-source projects**, including commercial applications.  
-- **Distribute modified or unmodified versions**, as long as the original copyright notice and disclaimers are maintained.  
+- **Distribute modified or unmodified versions**, as long as the original copyright notice and disclaimers are maintained.
 - **Use it for personal, academic, research, or commercial purposes** without the need to release derivative works under the same license.  
 
 ### What Users Cannot Do  
@@ -22,7 +22,7 @@ While the BSD-3 Clause License is permissive, there are a few restrictions:
 
 - **No liability or warranty**: The software is provided "as is," without any warranty, and the authors are not responsible for any damages resulting from its use.  
 - **No endorsement**: Users cannot use the name of the original project, contributors, or organization to promote their own derived software without prior permission.  
-- **Must retain copyright notices**: Any redistribution must include the original copyright statement and disclaimer.  
+- **Must retain copyright notices**: Any redistribution, be it in source code form or object code form, must include the original copyright statement and disclaimer.  
 
 ### Philosophy Behind the BSD-3 Clause License  
 The BSD-3 Clause License aligns with the **open-source philosophy** by promoting innovation, collaboration, and widespread adoption of software. Unlike restrictive licenses such as the GPL, BSD-3 allows developers to integrate the code into both open-source and proprietary projects without imposing copyleft obligations.  
