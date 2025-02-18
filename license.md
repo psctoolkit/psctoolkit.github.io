@@ -33,7 +33,7 @@ By using the BSD-3 Clause License, the **PSCToolkit** ensures that its software 
 
 ## Third-party Libraries
 
-The PSCToolkit library can be linked against several third-party auxiliary libraries, each distributed under its own license. It is important for users to review these licenses to ensure compliance when integrating these libraries into their projects. Below is a brief overview of the supported libraries along with links for more detailed information:
+The PSCToolkit library can be linked against several third-party _auxiliary_ libraries, each distributed under its own license. It is important for users to review these licenses to ensure compliance when integrating these libraries into their projects. Below is a brief overview of the supported libraries along with links for more detailed information:
 
 - **SuiteSparse (UMFPACK)**  
   SuiteSparse is a comprehensive suite of sparse matrix algorithms. It includes **UMFPACK**, which is specialized in solving unsymmetric sparse systems.  
