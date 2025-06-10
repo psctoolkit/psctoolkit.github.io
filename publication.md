@@ -11,7 +11,7 @@ Publications describing the structure of the PSBLAS: Parallel Sparse BLAS, the l
 
 ## AMG4PSBLAS
 This package was previously known as MLD2P4, these are the publication relative to its architecture and the preconditioner that implements.
-1. D'Ambra, Pasqua, Fabio Durastante, Salvatore Filippone, Stefano Massei, Stephen Thomas. " Optimal Polynomial Smoothers for Parallel AMG" (2024) *submitted* [arXiv:2407.09848](https://arxiv.org/abs/2407.09848)
+1. D'Ambra, Pasqua, Fabio Durastante, Salvatore Filippone, Stefano Massei, Stephen Thomas. " Optimal Polynomial Smoothers for Parallel AMG".  Numer Algor (2025). DOI:[10.1007/s11075-025-02117-6](https://doi.org/10.1007/s11075-025-02117-6). [Read online](https://rdcu.be/eqfit)
 1. D'Ambra, Pasqua, Fabio Durastante, and Salvatore Filippone. "AMG preconditioners for linear solvers towards extreme scale." SIAM Journal on Scientific Computing 43(5) (2021), S679–S703.
 2. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. MLD2P4: a package of parallel algebraic multilevel domain decomposition preconditioners in Fortran 95. ACM Trans. Math. Software 37 (2010), no. 3, Art. 30, 23 pp.
 3. D'Ambra, Pasqua; di Serafino, Daniela; Filippone, Salvatore. On the development of PSBLAS-based parallel two-level Schwarz preconditioners. Appl. Numer. Math. 57 (2007), no. 11-12, 1181--1196.
