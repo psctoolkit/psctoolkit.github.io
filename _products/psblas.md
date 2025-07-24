@@ -26,15 +26,7 @@ Library releases for PSBLAS.
 
 |Release | Date | Sources                        | Documentation             |
 |--------|------|--------------------------------|---------------------------|
-| Version 3.0-RC3 | July 23, 2025 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-rc3.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-rc3.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.9-rc3.pdf){:target="_blank"} |
-| Version 3.8.1-2 | November 13, 2023 |  [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1-2.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1-2.tar.gz) |  [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
-| Version 3.8.1 | September 29, 2023 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1.tar.gz) |  [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
-| Version  3.8.0-2 | August 5, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0-2.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0-2.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
-| Version 3.8.0 | May 24, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
-| Version 3.7.0.2 | September 24, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.2.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.2.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.0.1.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
-| Version 3.7.0.1 | May 11, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.0.1.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
-| Version 3.7.0-1 | April 13, 2021  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0-1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0-1.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
-| Version 3.7.0 | April 12, 2021  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
+| Version 3.9-RC3 | July 23, 2025 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-rc3.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-rc3.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.9-rc3.pdf){:target="_blank"} |
 
 Library releases can be downloaded from: [psblas3/releases](https://github.com/sfilippone/psblas3/releases)
 
@@ -115,14 +107,12 @@ with their default names; if they are in unusual places consider adding
 the paths with `--with-libs`, or explicitly specifying the names in
 `--with-blas`, etc. 
 
->[!CAUTION]
 > Please note that a common way for the configure script
 > to fail is to specify inconsistent MPI vs. plain compilers, either
 > directly or indirectly via environment variables; e.g. specifying the
 > Intel compiler with `FC=ifort` while at the same time having an 
 > `MPIFC=mpif90` which points to GNU Fortran. 
 
->[!TIP]
 > The best way to avoid this
 > situation is (in our opinion) to use the environment modules package
 > (see [http://modules.sourceforge.net/](http://modules.sourceforge.net/)), and load the relevant
@@ -235,7 +225,7 @@ Salvatore Filippone
 
 
 
-### For versions prior to 3.9
+# For versions prior to 3.9
 
 The **PSBLAS library**, developed with the aim to facilitate the
 parallelization of computationally intensive scientific applications,
@@ -251,6 +241,19 @@ passing.
 The PSBLAS library version 3 is  implemented in the Fortran 2003 programming
 language, with reuse and/or adaptation of  existing Fortran 77 and Fortran 95
 software, plus a handful of C  routines.
+
+|Release | Date | Sources                        | Documentation             |
+|--------|------|--------------------------------|---------------------------|
+| Version 3.8.1-2 | November 13, 2023 |  [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1-2.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1-2.tar.gz) |  [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
+| Version 3.8.1 | September 29, 2023 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.1.tar.gz) |  [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
+| Version  3.8.0-2 | August 5, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0-2.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0-2.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
+| Version 3.8.0 | May 24, 2022 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.8.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.8.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
+| Version 3.7.0.2 | September 24, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.2.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.2.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.0.1.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
+| Version 3.7.0.1 | May 11, 2021 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.0.1.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |
+| Version 3.7.0-1 | April 13, 2021  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0-1.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0-1.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
+| Version 3.7.0 | April 12, 2021  | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.7.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.7.pdf){:target="_blank"} [![HTML](/img/htmlicon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/psblasguide/index.html){:target="_blank"}  |    
+
+
 
 ## UTILITIES
 
@@ -388,7 +391,7 @@ Contributors (roughly reverse cronological order):
 - Stefano    Maiolatesi
 - Dario      Pascucci
 
-## License
+# License
 
 PSBLAS is distributed under the BSD 3-Clause license.
 
