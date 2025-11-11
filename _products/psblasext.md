@@ -13,6 +13,9 @@ features:
 order: 2
 ---
 
+> ⚠️ **Attention:** Starting from **PSBLAS version 3.9**, the **PSBLAS-EXT** library is no longer required, as it has been fully integrated into the main **PSBLAS** library.
+> The **PSBLAS-EXT** library will no longer receive updates, except for occasional bug fixes.
+
 This is the **extenstions plugin for PSBLAS**
 
 This package contains:
