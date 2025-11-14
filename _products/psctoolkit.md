@@ -210,12 +210,10 @@ Images are built and pushed automatically by GitHub Actions:
 
 ## Links and Support
 
-- Website: https://psctoolkit.github.io/
-- GitHub: https://github.com/psctoolkit/psctoolkit
-- Docker Hub: https://hub.docker.com/r/psctoolkit/psctoolkit
-- Documentation: https://psctoolkit.github.io/libraries/
-- Publications: https://psctoolkit.github.io/publication/
-- Email: psctoolkit@na.iac.cnr.it
+- [Website](https://psctoolkit.github.io/)
+- [GitHub](https://github.com/psctoolkit/psctoolkit)
+- [Docker Hub](https://hub.docker.com/r/psctoolkit/psctoolkit)
+- Email: <psctoolkit@na.iac.cnr.it>
 
 ## Citation
 
