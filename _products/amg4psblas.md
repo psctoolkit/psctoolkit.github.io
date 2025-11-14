@@ -14,7 +14,7 @@ features:
       icon: fa-network-wired
     - label: Excellent innovation in the EU Innovation Radar
       icon: fa-star
-order: 3
+order: 2
 ---
 
 Algebraic Multigrid Package  based on [PSBLAS](https://github.com/sfilippone/psblas3) (Parallel Sparse BLAS version 3.9)

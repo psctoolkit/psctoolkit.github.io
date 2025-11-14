@@ -8,67 +8,219 @@ image: /img/psctoolkit.png
 features:
     - label: PSBLAS Parallel Sparse BLAS
       icon: fa-code
-    - label: PSBLAS-EXT GPU Plugin for Parallel Sparse BLAS
-      icon: fa-puzzle-piece
     - label: AMG4PSBLAS Preconditioners for PSBLAS
       icon: fa-tachometer-alt
     - label: Excellent innovation in the EU Innovation Radar
       icon: fa-star
-order: 4
+order: 3
 ---
 
-This is the complete set of libraries that goes under the name PSCToolkit. To have the latest aligned version you can use the [psctoolkit repository](https://github.com/psctoolkit/psctoolkit).
-It contains the various libraries that make up the Parallel Sparse Computation Toolkit (PSCToolkit) as submodules.
+# PSCToolkit
 
-- PSBLAS
-- PSBLAS-EXT
-- AMG4PSBLAS
+PSCToolkit is a suite of libraries for high‑performance sparse linear algebra on distributed memory systems, with optional GPU acceleration. It includes:
 
-Moreover, it contains a version of the SUNDIALS library interfacing the PSCToolkit routines for linear algebra (distributed matrices and vectors), linear solvers and preconditioners.
+- PSBLAS — Parallel Sparse BLAS (distributed sparse matrices and vectors)
+- AMG4PSBLAS — Algebraic Multigrid preconditioners and solvers for PSBLAS
+- SUNDIALS (integration) — ODE/DAE solvers interfaced with PSBLAS
 
-## How to get
+Project home: https://psctoolkit.github.io/
+GitHub: https://github.com/psctoolkit/psctoolkit
+Docker Hub: https://hub.docker.com/r/psctoolkit/psctoolkit
 
-To clone the **latest version** do
+## Get the Code
+
+### Stable (master)
+
 ```bash
-git clone https://github.com/psctoolkit/psctoolkit.git
+git clone --recurse-submodules https://github.com/psctoolkit/psctoolkit.git
 ```
-or if you want to use ssh:
+
+### Development (bleeding edge)
+
 ```bash
-git clone git@github.com:psctoolkit/psctoolkit.git
-```
-To keep it updated with the changes in the individual repositories, use the command:
-```bash
+git clone --recurse-submodules https://github.com/psctoolkit/psctoolkit.git
+cd psctoolkit
+git checkout development
 git submodule update --init --recursive
 ```
-or to execute ```git pull``` inside each of the folders to synchronize to the latest version.
 
-**Warning:** the various submodules point to mutually compatible versions of the library. Branch switching and pull operations could damage compatibility, especially moving into development branches. The easiest way is to download the latest **stable release**. This contains all versions of the packages that can be compiled together.
+To update submodules to their tracked branches:
 
-| PSCToolkit Stable Version | Libraries        |                    |
-|---------------------------|------------------|--------------------|
-| Version 1.0.0      | PSBLAS 3.7.0.1   | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/V3.7.0.1.tar.gz)    |
-|                    | AMG4PSBLAS 1.0.0 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/V1.0.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/V1.0.0.tar.gz)   |
-|                    | PSBLAS-EXT 1.3.0 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3-ext/archive/refs/tags/V1.3.0.tar.gz)    |
-
-## How to install
-
-The possible installation order are:
-
-1. PSBLAS -> PSBLAS-EXT -> AMG4PSBLAS -> SUNDIALS
-2. PSBLAS -> AMG4PSBLAS -> PSBLAS-EXT -> SUNDIALS
-3. PSBLAS -> AMG4PSBLAS
-
-
-Each of the libraries contains its own installation instructions. See information on [https://psctoolkit.github.io/libraries/](https://psctoolkit.github.io/libraries/) for each of them.
-
-### Docker container
-
-We have also available an *experimental* Docker container containing the installation of the core libraries PSBLAS, PSBLAS-EXT, and AMG4PSBLAS (without GPU support). Such container is a unit of software packaging up the source code, the compiled version of the library, and all the relevant dependencies. The idea is to have a version of the PSCToolkit that can run quickly and reliably from one computing environment to another.
-
-The container is available on [dockerhub](https://hub.docker.com/r/psctoolkit/psctoolkit). If you have a version of Docker installed on your
-machine, you can use the image by doing
 ```bash
-docker pull psctoolkit/psctoolkit
+git submodule update --recursive --remote
 ```
-The library is installed under `/usr/local/psctoolkit`. The container is built upon the latest long term release of Ubuntu and uses the packaged versions of the software to fulfill the PSCToolkit prerequisites and
-the auxiliary libraries.
+
+> The submodules are pinned to mutually compatible versions. Switching branches or pulling arbitrarily inside submodules may break compatibility.
+
+## Docker Images
+
+Prebuilt images are published on Docker Hub via GitHub Actions:
+
+- `psctoolkit/psctoolkit:latest` — built from the `master` branch (stable)
+- `psctoolkit/psctoolkit:development` — built from the `development` branch
+
+### Pull
+
+```bash
+# Stable
+docker pull psctoolkit/psctoolkit:latest
+
+# Development
+docker pull psctoolkit/psctoolkit:development
+```
+
+### Run
+
+```bash
+# CPU-only container
+docker run -it psctoolkit/psctoolkit:development /bin/bash
+
+# GPU-enabled (requires NVIDIA Container Toolkit)
+docker run --gpus all -it psctoolkit/psctoolkit:development /bin/bash
+```
+
+Inside the container, libraries are installed under:
+
+- `/usr/local/psctoolkit/include` — headers and Fortran modules
+- `/usr/local/psctoolkit/lib` — libraries
+
+### What’s Inside the Image
+
+Base: `nvidia/cuda:13.0.2-devel-ubuntu24.04` (Ubuntu 24.04 + CUDA 13).
+
+Installed components:
+- Build tools: gcc/g++, gfortran, cmake, git, OpenMPI
+- Math: OpenBLAS, SuiteSparse (incl. UMFPACK, AMD), METIS
+- Direct solvers: SuperLU, SuperLU_DIST, MUMPS
+- PSCToolkit libraries compiled with:
+  - PSBLAS: OpenMP enabled; CUDA enabled for compute capabilities 60, 70, 80, 89, 90
+  - AMG4PSBLAS: support for SuperLU, SuperLU_DIST, MUMPS, UMFPACK
+
+Source code is available at `/home/work/psctoolkit/` inside the container.
+
+### Compile and Run Examples
+
+```bash
+# Fortran + PSBLAS
+mpif90 -I/usr/local/psctoolkit/modules your_code.f90 \
+  -L/usr/local/psctoolkit/lib -lpsb_linsolve -lpsb_prec -lpsb_util -lpsb_base -o your_program
+
+# With AMG4PSBLAS
+mpif90 -I/usr/local/psctoolkit/modules your_code.f90 \
+  -L/usr/local/psctoolkit/lib -lamg_prec -lpsb_prec -lpsb_linsolve -lpsb_util -lpsb_base -o your_program
+
+# With CUDA support
+mpif90 -I/usr/local/psctoolkit/modules your_code.f90 \
+  -L/usr/local/psctoolkit/lib -lpsb_ext -lpsb_cuda -lspgpu -lpsb_linsolve -lpsb_prec -lpsb_util -lpsb_base \
+  -L/usr/local/cuda/lib64 -lcudart -lcublas -lcusparse -o your_program
+
+# Run with MPI (example)
+mpirun -np 4 ./your_program
+```
+
+### C Language Bindings
+
+The C interfaces (Fortran/C interoperability via ISO_C_BINDING) are located in the cbind subdirectories:
+- psblas3/cbind (PSBLAS)
+- amg4psblas/cbind (AMG4PSBLAS)
+
+They are built automatically with the normal build; no separate configure step is required.
+
+After installation, the binding headers are placed under the main include prefix (e.g. /usr/local/psctoolkit/include). Header filenames follow the library naming used in the cbind directories (inspect that directory for the exact names; typical patterns group PSBLAS and AMG4PSBLAS symbols separately).
+
+### GPU Runtime Prerequisites
+
+- NVIDIA GPU (compute capability ≥ 6.0: Pascal, Volta, Turing, Ampere, Hopper)
+- NVIDIA Container Toolkit installed on the host
+
+Quick install (Ubuntu/Debian):
+
+```bash
+# Install NVIDIA Container Toolkit (see NVIDIA docs for details)
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -fsSL https://nvidia.github.io/nvidia-docker/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+curl -fsSL https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
+  sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+```
+
+Verify:
+
+```bash
+docker run --gpus all psctoolkit/psctoolkit:development nvidia-smi
+```
+
+## Build From Source (Development)
+
+Requirements:
+- C/C++ (gcc/g++), Fortran (gfortran)
+- MPI (OpenMPI or MPICH)
+- BLAS/LAPACK (OpenBLAS, MKL, etc.)
+- Optional: CUDA Toolkit; SuiteSparse; METIS; SuperLU; SuperLU_DIST; MUMPS
+
+### PSBLAS
+
+```bash
+cd psblas3
+./configure --prefix=/usr/local/psctoolkit \
+  --with-amdlibdir=/usr/lib/x86_64-linux-gnu/ \
+  --with-amdincdir=/usr/include/suitesparse/ \
+  --with-metislibdir=/usr/lib/x86_64-linux-gnu/ \
+  --with-ipk=4 --with-lpk=4 \
+  --enable-openmp
+
+# CUDA (optional)
+# add: --enable-cuda \
+#      --with-cudadir=/usr/local/cuda \
+#      --with-cudacc=60,70,80,89,90
+
+make -j$(nproc)
+make install
+```
+
+### AMG4PSBLAS
+
+```bash
+cd amg4psblas
+./configure --prefix=/usr/local/psctoolkit \
+  --with-psblas=/usr/local/psctoolkit \
+  --with-superlulibdir=/usr/lib/x86_64-linux-gnu \
+  --with-superluincdir=/usr/include/superlu/ \
+  --with-superludistlibdir=/usr/lib/x86_64-linux-gnu \
+  --with-superludistincdir=/usr/include/superlu-dist/ \
+  --with-mumpslibdir=/usr/lib/x86_64-linux-gnu \
+  --with-mumpsincdir=/usr/include \
+  --with-umfpacklibdir=/usr/lib/x86_64-linux-gnu \
+  --with-umfpackincdir=/usr/include/suitesparse/
+
+make -j$(nproc)
+make install
+```
+
+### SUNDIALS (optional)
+
+See instructions inside the `sundials/` submodule.
+
+## Continuous Integration
+
+Images are built and pushed automatically by GitHub Actions:
+- `latest` on pushes to `master` → Docker tag `psctoolkit/psctoolkit:latest`
+- `development` on pushes to `development` → Docker tag `psctoolkit/psctoolkit:development`
+
+## Links and Support
+
+- Website: https://psctoolkit.github.io/
+- GitHub: https://github.com/psctoolkit/psctoolkit
+- Docker Hub: https://hub.docker.com/r/psctoolkit/psctoolkit
+- Documentation: https://psctoolkit.github.io/libraries/
+- Publications: https://psctoolkit.github.io/publication/
+- Email: psctoolkit@na.iac.cnr.it
+
+## Citation
+
+If PSCToolkit helped your research, please cite the relevant libraries. See the [Publications page](https://psctoolkit.github.io/publication/).
+
+## License
+
+Each component retains its original license (generally BSD 3‑Clause). Refer to the respective repositories for details.

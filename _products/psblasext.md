@@ -4,13 +4,13 @@ subtitle: Parallel Sparse BLAS GPU Plugin
 description: Parallel Sparse BLAS for an hybrid MPI-NVIDIA code
 product_code: PSBLAS-EXT
 layout: product
-image: /img/psblaslibraryext.png
+image: /img/psblaslibraryext_discontinued.png
 features:
     - label: Add NVIDIA-GPU capabilities to your code
       icon: fa-microchip
     - label: Tested on thousands of GPUs
       icon: fa-fighter-jet
-order: 2
+order: 4
 ---
 
 > ⚠️ **Attention:** Starting from **PSBLAS version 3.9**, the **PSBLAS-EXT** library is no longer required, as it has been fully integrated into the main **PSBLAS** library.

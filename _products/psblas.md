@@ -4,7 +4,7 @@ subtitle: Parallel Sparse BLAS
 description: Parallel Sparse Basic Linear Algebra Subroutines
 product_code: PSBLAS
 layout: product
-image: /img/psblaslibrary.png
+image: /img/psblaslibraryext.png
 features:
     - label: Great addition to any scientific project
       icon: fa-plus-square
