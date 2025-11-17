@@ -6,16 +6,17 @@ show_sidebar: false
 ---
 
 **Seminars:**
-- Highly Parallel Smoothers for PSCToolkit on GPUs, SIAM Applied Linear Algebra, Paris, May 13, France, 2024.  [📄](https://psctoolkit.github.io/talks/siam2024-dambra.pdf)
-- Algebraic Multigrid Methods for Simulation of Single Phase Flow in Fractured Media, SIAM Applied Linear Algebra, Paris, May 13, France, 2024.  [📄](https://psctoolkit.github.io/talks/AMGFracture.pdf)
-- AMG preconditioners towards exascale. HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, September 14th-15th Padova, Italy 2023
+- Scalable Linear Solvers for GPU-accelerated heterogeneous supercomputers, HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, July 4-5, Milan, Italy, 2024.  [📄](https://psctoolkit.github.io/talks/hpcsim2024-dambra.pdf)
+- Highly Parallel Smoothers for PSCToolkit on GPUs, SIAM Applied Linear Algebra, May 13, Paris, France, 2024.  [📄](https://psctoolkit.github.io/talks/siam2024-dambra.pdf)
+- Algebraic Multigrid Methods for Simulation of Single Phase Flow in Fractured Media, SIAM Applied Linear Algebra, May 13, Paris, France, 2024.  [📄](https://psctoolkit.github.io/talks/AMGFracture.pdf)
+- AMG preconditioners towards exascale. HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, September 14-15 Padova, Italy 2023
 - PSCTOOLKIT: Parallel Sparse Computation Toolkit. 10th International Congress on
-Industrial and Applied Mathematics. August 20-25, 2023. Waseda University, Tokyo, Japan [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_ICIAM2023.pdf)
-- PSCTOOLKIT: Parallel Sparse Computation Toolkit. Math Product (M2P): Emerging Technologies in Computational Science for Industry, Sustainability and Innovation. May 29 - June 1, 2023. [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_TAORMINA.pdf)
-- AMG Preconditioners based on Parallel Hybrid Coarsening and Bi-objective Matching. 31st Euromicro International Conference on PDP. March 1-3, 2023. [📄](https://psctoolkit.github.io/talks/pdp-2023.pdf)
-- Node-level eciency and scalability issues in iterative sparse linear solvers at scale. 31st Euromicro International Conference on PDP. March 1-3, 2023. [📄](https://psctoolkit.github.io/talks/pdp2023-dambra.pdf)
-- Scalability Results for the Solution of the Richards Equation. GIMC SIMAI Young, Pavia, 29-30 September, 2022. [📄](https://psctoolkit.github.io/talks/Richards-GIMCSIMAI.pdf)
-- Parallel Sparse Computation Toolkit: Towards Exascale Linear Algebra, LN HPCKTT General Assembly and 3rd Italian Workshop on HPC, Turin, Italy. September 2022. [📄](https://psctoolkit.github.io/talks/torinohpc.pdf)
+Industrial and Applied Mathematics. August 20-25, 2023, Waseda University, Tokyo, Japan [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_ICIAM2023.pdf)
+- PSCTOOLKIT: Parallel Sparse Computation Toolkit. Math Product (M2P): Emerging Technologies in Computational Science for Industry, Sustainability and Innovation. May 29 - June 1, 2023, Taormina, Italy. [📄](https://psctoolkit.github.io/talks/PSCTOOLKIT_TAORMINA.pdf)
+- AMG Preconditioners based on Parallel Hybrid Coarsening and Bi-objective Matching. 31st Euromicro International Conference on PDP. March 1-3, 2023, Naples, Italy. [📄](https://psctoolkit.github.io/talks/pdp-2023.pdf)
+- Node-level efficiency and scalability issues in iterative sparse linear solvers at scale. 31st Euromicro International Conference on PDP. March 1-3, 2023, Naples, Italy. [📄](https://psctoolkit.github.io/talks/pdp2023-dambra.pdf)
+- Scalability Results for the Solution of the Richards Equation. GIMC SIMAI Young, 29-30 September, 2022, Pavia, Italy. [📄](https://psctoolkit.github.io/talks/Richards-GIMCSIMAI.pdf)
+- Parallel Sparse Computation Toolkit: Towards Exascale Linear Algebra, LN HPCKTT General Assembly and 3rd Italian Workshop on HPC, September 2022, Turin, Italy. [📄](https://psctoolkit.github.io/talks/torinohpc.pdf)
 - Algebraic MultiGrid Preconditioners for Sparse Linear Solvers at Extreme Scale, Lawrence Berkeley Laboratory, USA. September, 6th, 2022. [📄](https://psctoolkit.github.io/talks/linearalgebraattheextremescale-berkeley.pdf)
 - On the Convergence of Two-Level AMG with aggregation-based coarsening relying on
 weighted matching. Householder Symposium XXI, Selva di Fasano, Italy. June 2022.
