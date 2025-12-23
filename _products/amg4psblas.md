@@ -39,6 +39,7 @@ Library releases for AGM4PSBLAS.
 
 |Release | Date | Sources                        | Documentation             | Works with |
 |--------|------|--------------------------------|---------------------------| -----------|
+| Version 1.2.0 | December 23, 2025 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.2.0.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.2.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/amg4psblas_1.2-guide.pdf){:target="_blank"} | PSBLAS 3.9.0 |
 | Version 1.2-rc3 | July 23, 2025 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.2.0-rc3.zip)  [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/amg4psblas/archive/refs/tags/v1.2.0-rc3.tar.gz)  | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](https://psctoolkit.github.io/amg4psblasguide/amg4psblas_1.2-guide-rc3.pdf){:target="_blank"} | PSBLAS 3.9-rc3 |
 
 
@@ -59,33 +60,101 @@ The main reference for features inherited from MLD2P4 is
 
 ## Installing
 
-Installation requires having a working version of the [PSBLAS](https://github.com/sfilippone/psblas3) library installed.
-AMG4PSBLAS has several interfaces to third-party libraries that can be used in the construction and application phases of preconditioners. 
-In particular, it is possible to link AMG4PSBLAS with the libraries: MUMPS, SuperLU, SuperLU_Dist, UMFPACK. This is _not mandatory_ and the library can run 
+Installation requires a working version of the [PSBLAS](https://github.com/sfilippone/psblas3) library
+as a prerequisite.
+AMG4PSBLAS has several interfaces to third-party libraries that can be used in the construction
+and application phases of preconditioners;  
+in particular, it is possible to link AMG4PSBLAS with the libraries: MUMPS, SuperLU, SuperLU_Dist, UMFPACK.
+The usage of these third party libraries is _not mandatory_: the package can function  
 in isolation and without these features.
 
 0. Unpack the tar file in a directory of your choice (preferrably
    outside the main PSBLAS directory).
-1. run configure `--with-psblas=<ABSOLUTE path of the PSBLAS install directory>`
+1. run configure `--with-psblas=<ABSOLUTE path of the PSBLAS install directory> --prefix=<install_path>`
    adding the options for MUMPS, SuperLU, SuperLU_Dist, UMFPACK as desired.
-   See [AMG4PSBLAS User's and Reference Guide](docs/amg4psblas_1.0-guide.pdf) (Section 3) for details.
+   See [AMG4PSBLAS User's and Reference Guide](docs/amg4psblas_1.2-guide.pdf) (Section 3) for details.
 2. Tweak `Make.inc` if you are not satisfied.
 3. run `make`; 
 4. Go into the test subdirectory and build the examples of your choice.
-5. (if desired): `make install` 
+5. (if desired): `make install` or `sudo make install` if the install path requires privileged access. 
 
+>[!CAUTION]
 >The single precision version is supported only by MUMPS and SuperLU;
 >thus, even if you specify at configure time to use UMFPACK or SuperLU_Dist,
 >the corresponding preconditioner options will be available only from
 >the double precision version.
 
+## CMAKE 
+AMG4PSBLAS supports building with CMake. To configure the project, you must explicitly provide the path where PSBLAS is installed. If this path is not specified, the configuration will fail with a fatal error.
+
+From the root directory of the project, run:
+### 1. Create and enter the build directory
+```
+mkdir build
+cd build
+```
+
+### 2. Configure the project (MANDATORY: specify your PSBLAS path)
+```
+cmake -DPSBLAS_INSTALL_DIR=</path/to/psblas/installation> ..
+```
+During this step, CMake will:
+- Search for the PSBLAS package in the provided path.
+- Detect and configure MPI (required for C, C++, and Fortran).
+- Set up include and module directories based on the PSBLAS configuration.
+- Configure integer sizes (IPK and LPK) to match the PSBLAS installation.
+### 2.1. Customizing the Installation Path
+By default, the library will be installed in standard system locations. To install amg4psblas in a custom directory, use the CMAKE_INSTALL_PREFIX variable:
+```
+cmake -DPSBLAS_INSTALL_DIR=</path/to/psblas/installation> \
+      -DCMAKE_INSTALL_PREFIX=</path/to/amg4psblas_install> ..
+```
+
+### 3. Compiling and Installing
+Once configured, you can build the libraries (amg_prec and amg_cbind) and install them.
+#### Build the library
+```
+make
+```
+
+#### Install the library, modules, and samples
+```
+make install
+```
+
+
 ### CUDA, OpeMP, OpenACC
 
-CUDA, OpenMP and OpenACC features are transparently inherited by PSBLAS installation. If PSBLAS has been configured (and installed) with these supports then AMG4PSBLAS will transparently inherit them. It will then be possible to move the computation to GPU accelerator simply by selecting the appropriate variable types. If these have not been activated or installed for PSBLAS then they will not be available for AMG4PSBLAS either and the operation will be purely on CPU/MPI. See also the samples/cuda folder.
+CUDA, OpenMP and OpenACC features are transparently inherited by PSBLAS installation.
+If PSBLAS has been configured (and installed) with these supports then AMG4PSBLAS will
+transparently inherit them. It will then be possible to move the computation to GPU accelerator
+simply by selecting the appropriate variable types in the application.
+If the types have not been activated or installed for PSBLAS then they will not be
+available for AMG4PSBLAS either and the operation will be purely on CPU/MPI. See also the samples/cuda folder.
 
 ### EoCoE - Software as service portal
 
-In the European project “Energy oriented Center of Excellence: toward exascale for energy” we made available a software as service portal: [https://eocoe.psnc.pl/](https://eocoe.psnc.pl/). This permits to test several cutting-edge computational methods for accelerating the transition to the production, storage and management of clean, decarbonized energy. Among them you have the possibility of running PSBLAS+AMG4PSBLAS on some test problems to become familiar with using the software.
+ In the European project “Energy oriented Center of Excellence: toward exascale for energy” we made
+ available the software through a service portal: [https://eocoe.psnc.pl/](https://eocoe.psnc.pl/).
+ This permits to test several cutting-edge computational methods for accelerating the transition
+  to production, storage and management of clean, decarbonized energy.
+  Among them you have the possibility of running PSBLAS+AMG4PSBLAS on some test problems
+  to become familiar with using the software.
+## MPI and Compilers
+ The library has been successfully compiled and tested with the same  compilers
+ and MPI implementations as PSBLAS 3.9, which include:
+ - MPICH 4.2.3, 4.3.0, 4.3.2
+ - OpenMPI 4.1.8. 5.0.7, 5.0.8, 5.0.9
+ 
+ combined with
+ 
+ - GNU compilers 10.5.0, 11.5.0, 12.5.0, 13.3.0, 14.2.0 14.3.0, 15.2.0
+ - LLVM  20.1.0 and 21.1.0 (except OpenMPI 4.1.8 which does not build with LLVM)
+ 
+ Moreover, it has been tested with the Intel OneAPI toolchain versions 2025.2 and 2025.3
+
+ As of this release, the NVIDIA compiler 25.7 fails to handle our code.
+ Cray, IBM and NAg compilers have been used for testing in the past, but not on this version.
 
 ## TODO and bugs
  
@@ -103,8 +172,8 @@ In the European project “Energy oriented Center of Excellence: toward exascale
 **Contributors** (_roughly reverse cronological order_):
 
 - Luca       Pepè Sciarria
-- Andea      Di Iorio
-- Ambra	     Abdullahi Hassan
+- Andrea     Di Iorio
+- Ambra	    Abdullahi Hassan
 - Alfredo    Buttari
 
 License
