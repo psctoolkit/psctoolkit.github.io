@@ -17,7 +17,7 @@ We are pleased to announce the **release of the newest versions** of the two cor
 
 ### 🔹 PSBLAS 3.9.0
 
-**PSBLAS** (Parallel Sparse Basic Linear Algebra Subprograms) is the distributed sparse linear algebra library at the heart of the PSCToolkit. It provides scalable and efficient support for parallel sparse matrix operations, iterative solvers, distributed memory execution, and interfaces to high-performance computing environments. 
+**PSBLAS** (Parallel Sparse BLAS) is the distributed sparse linear algebra library at the heart of the PSCToolkit. It provides scalable and efficient support for parallel sparse matrix operations, iterative solvers, distributed memory execution, and interfaces to high-performance computing environments. 
 
 **Highlights in 3.9.0:**
 - Direct support for GPU acceleration, no longer needing PSBLAS-EXT for GPU offloading. 
