@@ -6,6 +6,8 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- Tutorial on PSCToolkit, dealii-X Research School: Digital Twins of the Human Body September, 10-12 2025, SISSA, Trieste, Italy. 
+- Krylov: better, faster, parallel, The 26th Conference of the International Linear Algebra Society, Kaohsiung, Taiwan. June 23-27, 2025. [📄](https://psctoolkit.github.io/talks/krylov_durastante.pdf)
 - Scalable Linear Solvers for GPU-accelerated heterogeneous supercomputers, HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, July 4-5, Milan, Italy, 2024.  [📄](https://psctoolkit.github.io/talks/hpcsim2024-dambra.pdf)
 - Highly Parallel Smoothers for PSCToolkit on GPUs, SIAM Applied Linear Algebra, May 13, Paris, France, 2024.  [📄](https://psctoolkit.github.io/talks/siam2024-dambra.pdf)
 - Algebraic Multigrid Methods for Simulation of Single Phase Flow in Fractured Media, SIAM Applied Linear Algebra, May 13, Paris, France, 2024.  [📄](https://psctoolkit.github.io/talks/AMGFracture.pdf)
