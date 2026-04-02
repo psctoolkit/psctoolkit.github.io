@@ -41,7 +41,7 @@ The PSCToolkit library can be linked against several third-party _auxiliary_ lib
 
 - **MUMPS**  
   MUMPS is a parallel sparse direct solver designed for solving large systems of linear equations. It is particularly well-suited for high-performance computing environments.  
-  [Learn more about MUMPS](http://mumps.enseeiht.fr/)
+  [Learn more about MUMPS](https://mumps-solver.org/)
 
 - **SuperLU**  
   SuperLU is a library dedicated to solving large, sparse, nonsymmetric linear systems on high-performance machines.  
