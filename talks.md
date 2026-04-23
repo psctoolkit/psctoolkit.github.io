@@ -6,6 +6,7 @@ show_sidebar: false
 ---
 
 **Seminars:**
+- The Parallel Sparse Computation Toolkit: Bringing linear algebra to the extreme scale. Seminar of Numerical Mathematics, Univerzita Karlova, April 23, 2024 Prague, CZ. [📄](https://psctoolkit.github.io/talks/psctoolkit_prague.pdf)
 - Krylov: better, faster, parallel, The 26th Conference of the International Linear Algebra Society, Kaohsiung, Taiwan. June 23-27, 2025. [📄](https://psctoolkit.github.io/talks/krylov_durastante.pdf)
 - Scalable Linear Solvers for GPU-accelerated heterogeneous supercomputers, HPCSIM Frontiers of High-Performance Computing in Modeling and Simulation, July 4-5, Milan, Italy, 2024.  [📄](https://psctoolkit.github.io/talks/hpcsim2024-dambra.pdf)
 - Highly Parallel Smoothers for PSCToolkit on GPUs, SIAM Applied Linear Algebra, May 13, Paris, France, 2024.  [📄](https://psctoolkit.github.io/talks/siam2024-dambra.pdf)
