@@ -26,6 +26,7 @@ Library releases for PSBLAS.
 
 |Release | Date | Sources                        | Documentation             |
 |--------|------|--------------------------------|---------------------------|
+| Version 3.9.0-1 | April 8, 2026 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-1.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-1.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.9.pdf){:target="_blank"} |
 | Version 3.9.0 | December 23, 2025 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.9.pdf){:target="_blank"} |
 | Version 3.9-RC3 | July 23, 2025 | [![ZIP](/img/zipicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-rc3.zip) [![Archive](/img/archiveicon.png){:height="24px" width="24px"}](https://github.com/sfilippone/psblas3/archive/refs/tags/v3.9.0-rc3.tar.gz) | [![PDF](/img/pdficon.png){:height="24px" width="24px"}](/psblasguide/psblas-3.9-rc3.pdf){:target="_blank"} |
 
